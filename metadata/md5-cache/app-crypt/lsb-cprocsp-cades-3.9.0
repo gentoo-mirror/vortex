@@ -1,0 +1,13 @@
+_eclasses_=rpm	b94b54b44f14d6bee3e966c8f5c86fba	toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	cryptopro	52b4a64dbfceba057a937afb3c6ca5c7	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=4ad50be4cd96eef4ecff995611731490
+SLOT=0
+DEFINED_PHASES=install postinst prerm setup unpack
+EAPI=5
+DEPEND=app-crypt/lsb-cprocsp-rdr >=app-arch/rpm2targz-9.0.0.3g
+DESCRIPTION=CryptoPro CAdES shared library.
+LICENSE=Crypto-Pro
+RESTRICT=fetch mirror strip
+SRC_URI=amd64? ( lsb-cprocsp-cades-64-3.9.0-4.x86_64.rpm ) x86? ( lsb-cprocsp-cades-3.9.0-4.i486.rpm )
+KEYWORDS=-* ~amd64 ~x86
+HOMEPAGE=https://www.cryptopro.ru/
+RDEPEND=app-crypt/lsb-cprocsp-capilite app-crypt/lsb-cprocsp-ocsp-util app-crypt/lsb-cprocsp-tsp-util

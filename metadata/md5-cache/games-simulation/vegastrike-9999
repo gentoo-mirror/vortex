@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	multilib	62927b3db3a589b0806255f3a002d5d3	subversion	c12bdf4fcc82f86ad89b14c8f76c4026	base	87f7447ccfc06fd0729ff4684e11e0d6	games	1ad3205dbf62a2c98249f2f59b0a2d39	user	f54e098dd38ba1c0847a13e685b87747	cmake-utils	430c386d85cec959d72640afd63ea91	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=df1ebb59543cac73ab79ab4028966434
+SLOT=0
+DEFINED_PHASES=compile configure install postinst preinst prepare setup test unpack
+EAPI=2
+DEPEND=virtual/opengl virtual/jpeg media-libs/libpng boost? ( dev-libs/boost[python] ) dev-libs/expat media-libs/openal media-libs/libsdl media-libs/libvorbis media-libs/libogg media-libs/sdl-mixer ffmpeg? ( media-video/ffmpeg ) media-libs/freeglut virtual/glu gtk? ( x11-libs/gtk+ ) games-simulation/vegastrike-data >=sys-devel/autoconf-2.58 sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DESCRIPTION=A 3D space simulator that allows you to trade and bounty hunt
+LICENSE=GPL-2
+IUSE=+boost +ffmpeg +gtk threads mesher server debug
+KEYWORDS=~amd64 ~ppc ~x86
+HOMEPAGE=http://vegastrike.sourceforge.net/
+RDEPEND=virtual/opengl virtual/jpeg media-libs/libpng boost? ( dev-libs/boost[python] ) dev-libs/expat media-libs/openal media-libs/libsdl media-libs/libvorbis media-libs/libogg media-libs/sdl-mixer ffmpeg? ( media-video/ffmpeg ) media-libs/freeglut virtual/glu gtk? ( x11-libs/gtk+ ) games-simulation/vegastrike-data games-misc/games-envd

@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	cmake-utils	430c386d85cec959d72640afd63ea91	flag-o-matic	c9602887773166fe300444712fc7ff98
+_md5_=6d46b7d49340a22e58cb500573a14186
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test
+EAPI=5
+DEPEND=fuse? ( sys-fs/fuse ) gui? ( || ( dev-qt/qtwidgets:5 dev-qt/qtgui:4 ) ) virtual/pkgconfig sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Reliable MTP client with minimalistic UI
+LICENSE=GPL-2
+IUSE=fuse gui
+SRC_URI=https://github.com/whoozle/android-file-transfer-linux/archive/v2.0.tar.gz -> android-file-transfer-linux-2.0.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=https://whoozle.github.io/android-file-transfer-linux/
+RDEPEND=fuse? ( sys-fs/fuse ) gui? ( || ( dev-qt/qtwidgets:5 dev-qt/qtgui:4 ) )

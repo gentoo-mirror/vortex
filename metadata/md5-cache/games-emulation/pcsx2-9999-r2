@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	wxwidgets	ff3622206dceaee98978452061ef51e5	flag-o-matic	c9602887773166fe300444712fc7ff98	git-r3	727a612b4c6247766904e3f74a326e2b	multilib	62927b3db3a589b0806255f3a002d5d3	base	87f7447ccfc06fd0729ff4684e11e0d6	games	1ad3205dbf62a2c98249f2f59b0a2d39	user	f54e098dd38ba1c0847a13e685b87747	cmake-utils	430c386d85cec959d72640afd63ea91	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=f93c57a7f21e9e2fac53af230bf05225
+SLOT=0
+DEFINED_PHASES=compile configure install postinst preinst prepare setup test unpack
+EAPI=5
+DEPEND=app-arch/bzip2[abi_x86_32] dev-libs/libaio[abi_x86_32] >=sys-libs/zlib-1.2.4[abi_x86_32] virtual/jpeg:62[abi_x86_32] x11-libs/gtk+:2[abi_x86_32] x11-libs/libICE[abi_x86_32] x11-libs/libX11[abi_x86_32] x11-libs/libXext[abi_x86_32] || ( x11-libs/wxGTK:2.8[abi_x86_32,X] x11-libs/wxGTK:3.0[abi_x86_32,X] ) video? ( media-libs/libpng:=[abi_x86_32] virtual/opengl[abi_x86_32] egl? ( media-libs/mesa[abi_x86_32,egl] ) app-arch/xz-utils[abi_x86_32] ) sdl? ( media-libs/libsdl[abi_x86_32,joystick?,sound?] ) sound? ( media-libs/alsa-lib[abi_x86_32] media-libs/portaudio[abi_x86_32] media-libs/libsoundtouch[abi_x86_32] ) png? ( dev-cpp/pngpp ) >=dev-cpp/sparsehash-1.5 sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) >=dev-vcs/git-1.8.2.1
+DESCRIPTION=A PlayStation 2 emulator
+LICENSE=GPL-3
+IUSE=custom-cflags egl joystick png +sdl +sound +video linguas_ar_SA linguas_ca_ES linguas_cs_CZ linguas_de_DE linguas_es_ES linguas_fi_FI linguas_fr_FR linguas_hr_HR linguas_hu_HU linguas_id_ID linguas_it_IT linguas_ja_JP linguas_ko_KR linguas_ms_MY linguas_nb_NO linguas_pl_PL linguas_pt_BR linguas_ru_RU linguas_sv_SE linguas_th_TH linguas_tr_TR linguas_zh_CN linguas_zh_TW
+REQUIRED_USE=egl? ( video ) joystick? ( sdl ) sound? ( sdl )
+HOMEPAGE=http://www.pcsx2.net
+RDEPEND=app-arch/bzip2[abi_x86_32] dev-libs/libaio[abi_x86_32] >=sys-libs/zlib-1.2.4[abi_x86_32] virtual/jpeg:62[abi_x86_32] x11-libs/gtk+:2[abi_x86_32] x11-libs/libICE[abi_x86_32] x11-libs/libX11[abi_x86_32] x11-libs/libXext[abi_x86_32] || ( x11-libs/wxGTK:2.8[abi_x86_32,X] x11-libs/wxGTK:3.0[abi_x86_32,X] ) video? ( media-libs/libpng:=[abi_x86_32] virtual/opengl[abi_x86_32] egl? ( media-libs/mesa[abi_x86_32,egl] ) app-arch/xz-utils[abi_x86_32] ) sdl? ( media-libs/libsdl[abi_x86_32,joystick?,sound?] ) sound? ( media-libs/alsa-lib[abi_x86_32] media-libs/portaudio[abi_x86_32] media-libs/libsoundtouch[abi_x86_32] ) games-misc/games-envd

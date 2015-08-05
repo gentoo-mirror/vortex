@@ -1,0 +1,13 @@
+_eclasses_=python	3a270b7b1d1e679847ff0faeac25c5a3	toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=487ea6d77a5ec7bbc0cc3d11e2e276d6
+SLOT=0
+DEFINED_PHASES=install prepare setup
+EAPI=5
+DEPEND=dev-util/intltool test? ( dev-python/nose ) =dev-lang/python-2* =dev-lang/python-2*[sqlite]
+DESCRIPTION=Utilities for yum such as repotrack, reposync, and yumdownloader
+LICENSE=GPL-2
+IUSE=test
+SRC_URI=http://yum.baseurl.org/download/yum-utils/yum-utils-1.1.31.tar.gz
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+HOMEPAGE=http://yum.baseurl.org
+RDEPEND=app-arch/rpm[python] sys-apps/yum dev-python/sqlitecachec dev-python/celementtree dev-libs/libxml2[python] dev-python/urlgrabber =dev-lang/python-2* =dev-lang/python-2*[sqlite]

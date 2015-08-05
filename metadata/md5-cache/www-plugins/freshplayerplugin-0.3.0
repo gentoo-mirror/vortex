@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	cmake-utils	430c386d85cec959d72640afd63ea91	flag-o-matic	c9602887773166fe300444712fc7ff98
+_md5_=125090167ed6454ffddba06a1f52fdd9
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test
+EAPI=5
+DEPEND=dev-libs/glib:2= dev-libs/libconfig:= dev-libs/libevent:=[threads] dev-libs/openssl:0= media-libs/alsa-lib:= media-libs/freetype:2= media-libs/libv4l media-libs/mesa:=[egl,gles2] x11-libs/libXrandr:= x11-libs/libXrender:= x11-libs/pango:=[X] jack? ( media-sound/jack ) pulseaudio? ( media-sound/pulseaudio ) !gtk3? ( x11-libs/gtk+:2= ) gtk3? ( x11-libs/gtk+:3= ) vaapi? ( x11-libs/libva virtual/ffmpeg ) dev-util/ragel virtual/pkgconfig sys-devel/make >=dev-util/cmake-2.8.8 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=PPAPI-host NPAPI-plugin adapter for flashplayer in npapi based browsers
+LICENSE=MIT
+IUSE=gtk3 jack pulseaudio vaapi
+SRC_URI=https://github.com/i-rinat/freshplayerplugin/archive/v0.3.0.tar.gz -> freshplayerplugin-0.3.0.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=https://github.com/i-rinat/freshplayerplugin
+RDEPEND=dev-libs/glib:2= dev-libs/libconfig:= dev-libs/libevent:=[threads] dev-libs/openssl:0= media-libs/alsa-lib:= media-libs/freetype:2= media-libs/libv4l media-libs/mesa:=[egl,gles2] x11-libs/libXrandr:= x11-libs/libXrender:= x11-libs/pango:=[X] jack? ( media-sound/jack ) pulseaudio? ( media-sound/pulseaudio ) !gtk3? ( x11-libs/gtk+:2= ) gtk3? ( x11-libs/gtk+:3= ) vaapi? ( x11-libs/libva virtual/ffmpeg ) || ( www-plugins/chrome-binary-plugins[flash] www-client/google-chrome www-client/google-chrome-beta www-client/google-chrome-unstable )

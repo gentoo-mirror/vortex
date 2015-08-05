@@ -1,0 +1,10 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=48c6057da9bdaae0a38f0d82e9eb5431
+SLOT=0
+DEFINED_PHASES=install postinst
+EAPI=5
+DESCRIPTION=Simple Linux kernel build scripts
+LICENSE=GPL-3
+KEYWORDS=*
+HOMEPAGE=https://github.com/nE0sIghT/vortex-overlay
+RDEPEND=app-admin/eselect app-arch/gzip sys-apps/coreutils sys-apps/gentoo-functions sys-apps/grep sys-apps/portage sys-apps/util-linux virtual/awk
