@@ -1,0 +1,10 @@
+_eclasses_=
+_md5_=4920357e9b4db71ca09f39152688ee60
+SLOT=0
+DEFINED_PHASES=install
+EAPI=5
+DESCRIPTION=Simple aliases for use with portage
+LICENSE=GPL-3
+KEYWORDS=*
+HOMEPAGE=https://github.com/nE0sIghT/vortex-overlay
+RDEPEND=sys-apps/portage

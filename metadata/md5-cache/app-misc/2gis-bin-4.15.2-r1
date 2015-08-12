@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	unpacker	1ca344bd9b922a7f8084a3fa02933b79	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	eutils	351a78113be5b393c09a2c948701ad36
+_md5_=769c1902c667f871c07ea42ac867c696
+SLOT=0
+DEFINED_PHASES=install unpack
+EAPI=5
+DEPEND=virtual/opengl x11-libs/libX11 x11-libs/libxcb x11-libs/libXau x11-libs/libXcomposite x11-libs/libXdmcp x11-libs/libXi x11-libs/libXrender
+DESCRIPTION=Maps & business listings
+LICENSE=freedist
+SRC_URI=amd64? ( http://deb.2gis.ru/pool/non-free/2/2gis/2gis_4.15.2-0trusty1+shv280+r339_amd64.deb ) x86? ( http://deb.2gis.ru/pool/non-free/2/2gis/2gis_4.15.2-0trusty1+shv280+r15_i386.deb )
+KEYWORDS=-* ~amd64 ~x86
+HOMEPAGE=http://2gis.ru
+RDEPEND=virtual/opengl x11-libs/libX11 x11-libs/libxcb x11-libs/libXau x11-libs/libXcomposite x11-libs/libXdmcp x11-libs/libXi x11-libs/libXrender
