@@ -3,8 +3,6 @@
 # * generated automatically using pmaint *
 
 app-crypt/cprocsp-rdr-pcsc:ccid - Use app-crypt/ccid free software driver to access PC/SC smart card
-games-emulation/pcsx2:png - Allow to dump texture as PNG (require dev-cpp/pngpp)
-games-emulation/pcsx2:wxwidgets3 - Link against version 3.0 of x11-libs/wxGTK instead of 2.8
 games-simulation/vegastrike:boost - Enables support for system dev-libs/boost instead of included one. Recommended.
 games-simulation/vegastrike:debug - Enable debugging support.
 games-simulation/vegastrike:ffmpeg - Enables support for media-video/ffmpeg. Recommended.
