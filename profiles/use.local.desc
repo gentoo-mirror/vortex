@@ -1,18 +1,10 @@
 # This file is deprecated as per GLEP 56 in favor of metadata.xml. Please add
 # your descriptions to your package's metadata.xml ONLY.
-# * generated automatically using egencache *
+# * generated automatically using pmaint *
 
 app-crypt/cprocsp-rdr-pcsc:ccid - Use app-crypt/ccid free software driver to access PC/SC smart card
-app-emulation/virtualbox-modules:pax_kernel - Apply patch needed for pax enabled kernels
-games-emulation/pcsx2:cg - Use CG backend of ZZogl
-games-emulation/pcsx2:custom-cflags - Strip upstream provided optimization flags (unsupported)
-games-emulation/pcsx2:egl - Enable GSdx plugin
-games-emulation/pcsx2:glew - Enable ZZogl plugin
-games-emulation/pcsx2:glsl - Use GLSL backend of ZZogl
-games-emulation/pcsx2:joystick - Control joystick support
-games-emulation/pcsx2:sdl - Use Simple Directmedia Layer (media-libs/libsdl) for audio and joystick support.
-games-emulation/pcsx2:sound - Build sound plugins
-games-emulation/pcsx2:video - Build video plugins
+games-emulation/pcsx2:png - Allow to dump texture as PNG (require dev-cpp/pngpp)
+games-emulation/pcsx2:wxwidgets3 - Link against version 3.0 of x11-libs/wxGTK instead of 2.8
 games-simulation/vegastrike:boost - Enables support for system dev-libs/boost instead of included one. Recommended.
 games-simulation/vegastrike:debug - Enable debugging support.
 games-simulation/vegastrike:ffmpeg - Enables support for media-video/ffmpeg. Recommended.
@@ -39,8 +31,6 @@ media-plugins/audacious-plugins:fluidsynth - Support FluidSynth as MIDI synth ba
 media-plugins/audacious-plugins:midi - Build with amidi-plug (MIDI synth) support
 media-plugins/audacious-plugins:scrobbler - Build with scrobbler/LastFM submission support
 media-plugins/audacious-plugins:sid - Build with SID (Commodore 64 Audio) support
-media-sound/audacious:chardet - Try to handle non-UTF8 chinese/japanese/korean ID3 tags
-media-sound/audacious:gtk3 - Link against version 3 of the GIMP Toolkit instead of version 2 (x11-libs/gtk+)
 media-video/smplayer:autoshutdown - Enable the option to shutdown your computer after finishing the playlist. This requires dev-qt/qtdbus as dependency.
 media-video/smplayer:streaming - Support for streaming video sites through net-misc/youtube-dl (MPV only).
 net-dns/ddclient:hardened - Use iproute2 instead of ifconfig to grab an IP address
@@ -51,6 +41,7 @@ sys-apps/pcsc-lite:policykit - Uses sys-auth/polkit to restrict access to smartc
 sys-apps/pcsc-lite:udev - Use sys-fs/udev rules to handle devices' permissions and hotplug support. Unless you know what you're doing do not disable this flag on Linux kernels. This is provided as an option for completeness.
 sys-fs/android-file-transfer-linux:fuse - Enable the sys-fs/fuse filesystem support
 sys-fs/android-file-transfer-linux:gui - Add support for QT GUI
+www-plugins/freshplayerplugin:gtk3 - Build with GTK+ 3 instead of GTK+ 2
 x11-libs/wxGTK:gnome - Use gnome-base/libgnomeprintui for printing tasks.
 x11-libs/wxGTK:gstreamer - Enable the wxMediaCtrl class for playing audio and video through gstreamer.
 x11-libs/wxGTK:sdl - Use Simple Directmedia Layer (media-libs/libsdl) for audio.
