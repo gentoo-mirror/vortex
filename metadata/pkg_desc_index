@@ -14,6 +14,7 @@ app-crypt/lsb-cprocsp-tsp-util 3.9.0: CryptoPro TSP client.
 app-misc/2gis-bin 4.15.2-r1: Maps & business listings
 app-portage/vortex-aliases 1: Simple aliases for use with portage
 dev-util/dex2jar 0.0.9.15: Tools to work with android .dex and java .class files
+dev-util/meld 3.14.0-r1: A graphical diff and merge tool
 games-emulation/gens-gs 7-r4: A Gens fork which aims to clean up the source code and combine features from other forks
 games-simulation/vegastrike 9999: A 3D space simulator that allows you to trade and bounty hunt
 games-simulation/vegastrike-data 9999: A 3D space simulator that allows you to trade and bounty hunt
