@@ -9,5 +9,5 @@ RDEPEND=app-crypt/lsb-cprocsp-rdr
 RESTRICT=fetch mirror strip
 SLOT=0
 SRC_URI=amd64? ( lsb-cprocsp-capilite-64-3.9.0-4.x86_64.rpm ) x86? ( lsb-cprocsp-capilite-3.9.0-4.i486.rpm )
-_eclasses_=cryptopro	52b4a64dbfceba057a937afb3c6ca5c7	eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	rpm	514a1840ee796656311a029ea952faa9	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_eclasses_=cryptopro	52b4a64dbfceba057a937afb3c6ca5c7	eutils	95613dd6157fb4a3b225eafdc56bd441	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	rpm	514a1840ee796656311a029ea952faa9	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
 _md5_=44f2ed4b69df9819fc6518cd0f0df334
