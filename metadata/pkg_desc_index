@@ -12,7 +12,10 @@ app-crypt/lsb-cprocsp-ocsp-util 3.9.0: CryptoPro PKI shared library.
 app-crypt/lsb-cprocsp-rdr 3.9.0-r1: CryptoPro CSP readers.
 app-crypt/lsb-cprocsp-tsp-util 3.9.0: CryptoPro TSP client.
 app-misc/2gis-bin 4.15.2-r1: Maps & business listings
+app-misc/touchcontrol 1.0: Software to control your android device over adb
 app-portage/vortex-aliases 1: Simple aliases for use with portage
+dev-java/ddmlib 13: APIs for talking with Dalvik VM
+dev-java/droid-at-screen 9999: Java program that show the device screen of an Android phone at a computer
 dev-util/dex2jar 0.0.9.15: Tools to work with android .dex and java .class files
 dev-util/meld 3.14.0-r1: A graphical diff and merge tool
 games-emulation/gens-gs 7-r4: A Gens fork which aims to clean up the source code and combine features from other forks
