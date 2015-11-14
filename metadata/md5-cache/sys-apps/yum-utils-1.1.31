@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=app-arch/rpm[python] sys-apps/yum dev-python/sqlitecachec dev-python/celementtree dev-libs/libxml2[python] dev-python/urlgrabber =dev-lang/python-2* =dev-lang/python-2*[sqlite]
 SLOT=0
 SRC_URI=http://yum.baseurl.org/download/yum-utils/yum-utils-1.1.31.tar.gz
-_eclasses_=eutils	8644194de7be04932084752fb1327080	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	python	06d7be3e54573292f012e3cc433d8297	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_eclasses_=eutils	8644194de7be04932084752fb1327080	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	python	0c2c16ea4f9074d3248bd4365d03890c	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=487ea6d77a5ec7bbc0cc3d11e2e276d6
