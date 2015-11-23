@@ -9,5 +9,5 @@ LICENSE=Crypto-Pro
 RDEPEND=~app-crypt/cprocsp-rdr-pcsc-3.9.0 ~app-crypt/cprocsp-rdr-uec-3.9.0 ~app-crypt/lsb-cprocsp-base-3.9.0 ~app-crypt/lsb-cprocsp-rdr-3.9.0 ~app-crypt/lsb-cprocsp-kc1-3.9.0 ~app-crypt/lsb-cprocsp-fkc-3.9.0 nsplugin? ( ~www-plugins/cprocsp-npcades-3.9.0 )
 RESTRICT=fetch mirror strip
 SLOT=0
-_eclasses_=cryptopro	52b4a64dbfceba057a937afb3c6ca5c7	eutils	f813d23e417656bf3917483643165d5a	multilib	3972ca401cf7dbb430df9995f5d8d580	rpm	514a1840ee796656311a029ea952faa9	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_eclasses_=cryptopro	52b4a64dbfceba057a937afb3c6ca5c7	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	rpm	514a1840ee796656311a029ea952faa9	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=b32e5ee7def77b8aaf6af5954be0fe80
