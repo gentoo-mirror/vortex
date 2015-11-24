@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst prerm setup unpack
+DEPEND=app-crypt/lsb-cprocsp-rdr >=app-arch/rpm2targz-9.0.0.3g
+DESCRIPTION=CryptoAPI lite.
+EAPI=5
+HOMEPAGE=https://www.cryptopro.ru/
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=Crypto-Pro
+RDEPEND=app-crypt/lsb-cprocsp-rdr
+RESTRICT=fetch mirror strip
+SLOT=0
+SRC_URI=amd64? ( lsb-cprocsp-capilite-64-3.9.0-4.x86_64.rpm ) x86? ( lsb-cprocsp-capilite-3.9.0-4.i486.rpm )
+_eclass_exported_funcs=pkg_prerm:cryptopro pkg_postinst:- pkg_setup:cryptopro src_unpack:rpm src_install:-
+_eclasses_=cryptopro	52b4a64dbfceba057a937afb3c6ca5c7	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	rpm	514a1840ee796656311a029ea952faa9	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=44f2ed4b69df9819fc6518cd0f0df334
