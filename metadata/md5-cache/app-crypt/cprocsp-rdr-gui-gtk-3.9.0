@@ -10,5 +10,5 @@ RESTRICT=fetch mirror strip
 SLOT=0
 SRC_URI=amd64? ( cprocsp-rdr-gui-gtk-64-3.9.0-4.x86_64.rpm ) x86? ( cprocsp-rdr-gui-gtk-3.9.0-4.i486.rpm )
 _eclass_exported_funcs=pkg_prerm:- pkg_postinst:- pkg_setup:cryptopro src_unpack:rpm src_install:cryptopro
-_eclasses_=cryptopro	52b4a64dbfceba057a937afb3c6ca5c7	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	rpm	514a1840ee796656311a029ea952faa9	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_eclasses_=cryptopro	52b4a64dbfceba057a937afb3c6ca5c7	eutils	d9bd2ddd85a58e470b49ca997e255a4c	multilib	3972ca401cf7dbb430df9995f5d8d580	rpm	514a1840ee796656311a029ea952faa9	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=cf03f7fe823fd76863019bc337e0e3d8
