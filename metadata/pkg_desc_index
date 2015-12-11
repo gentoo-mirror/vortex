@@ -17,7 +17,6 @@ app-portage/vortex-aliases 1: Simple aliases for use with portage
 dev-java/ddmlib 13-r1 22.6: APIs for talking with Dalvik VM
 dev-java/support-annotations 22.6: APIs for talking with Dalvik VM
 dev-util/dex2jar 0.0.9.15: Tools to work with android .dex and java .class files
-dev-util/meld 3.14.0-r1: A graphical diff and merge tool
 games-emulation/gens-gs 7-r4: A Gens fork which aims to clean up the source code and combine features from other forks
 games-simulation/vegastrike 9999: A 3D space simulator that allows you to trade and bounty hunt
 games-simulation/vegastrike-data 9999: A 3D space simulator that allows you to trade and bounty hunt
@@ -31,7 +30,6 @@ media-video/smtube 1.7 15.1.0: A youtube search and play add-on for smplayer.
 net-dns/ddclient 3.8.3_pre1: Perl updater client for dynamic DNS services
 net-news/liferea 1.10.14 1.10.15 1.10.16: News Aggregator for RDF/RSS/CDF/Atom/Echo feeds
 sys-apps/microcode-data 20150121: Intel IA32 microcode update data
-sys-apps/pcsc-lite 1.8.13-r2: PC/SC Architecture smartcard middleware library
 sys-apps/yum-utils 1.1.31: Utilities for yum such as repotrack, reposync, and yumdownloader
 sys-fs/android-file-transfer-linux 2.0: Reliable MTP client with minimalistic UI
 sys-kernel/vortex-build 2: Simple Linux kernel build scripts
