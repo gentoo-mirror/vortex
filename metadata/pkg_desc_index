@@ -27,14 +27,11 @@ mail-filter/opendkim 2.9.2-r2: A milter-based application to provide DKIM signin
 media-libs/libquvi 0.4.1-r1: Library for parsing video download links
 media-plugins/audacious-plugins 3.7: Audacious Player - Your music, your way, no exceptions
 media-sound/audacious 3.7: Audacious Player - Your music, your way, no exceptions
-net-dns/ddclient 3.8.3_pre1: Perl updater client for dynamic DNS services
-net-news/liferea 1.10.14 1.10.15 1.10.16: News Aggregator for RDF/RSS/CDF/Atom/Echo feeds
-sys-apps/microcode-data 20150121: Intel IA32 microcode update data
+net-dns/ddclient 3.8.3: Perl updater client for dynamic DNS services
 sys-apps/pcsc-lite 1.8.13-r2: PC/SC Architecture smartcard middleware library
 sys-apps/yum-utils 1.1.31: Utilities for yum such as repotrack, reposync, and yumdownloader
 sys-fs/android-file-transfer-linux 2.0: Reliable MTP client with minimalistic UI
 sys-kernel/vortex-build 2: Simple Linux kernel build scripts
 www-plugins/cprocsp-npcades 3.9.0-r1: CryptoPro CAdES NPAPI plugin library.
-www-plugins/freshplayerplugin 0.3.0: PPAPI-host NPAPI-plugin adapter for flashplayer in npapi based browsers
 www-plugins/ifcplugin 2.0.6.0: Crypto Interface Web Browser Plugin
 x11-libs/wxGTK 3.0.2.0-r100: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
