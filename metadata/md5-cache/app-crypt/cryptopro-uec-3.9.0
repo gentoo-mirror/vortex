@@ -10,5 +10,5 @@ RDEPEND=~app-crypt/cprocsp-rdr-pcsc-3.9.0 ~app-crypt/cprocsp-rdr-uec-3.9.0 ~app-
 RESTRICT=fetch mirror strip
 SLOT=0
 _eclass_exported_funcs=pkg_prerm:cryptopro pkg_postinst:- pkg_setup:cryptopro src_unpack:rpm src_install:-
-_eclasses_=cryptopro	52b4a64dbfceba057a937afb3c6ca5c7	eutils	7332d4dd366dcd51c0014dde21f21897	multilib	3972ca401cf7dbb430df9995f5d8d580	rpm	514a1840ee796656311a029ea952faa9	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_eclasses_=cryptopro	52b4a64dbfceba057a937afb3c6ca5c7	eutils	8982475656ba7ade9b3201397efbd612	multilib	3972ca401cf7dbb430df9995f5d8d580	rpm	514a1840ee796656311a029ea952faa9	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=b32e5ee7def77b8aaf6af5954be0fe80
