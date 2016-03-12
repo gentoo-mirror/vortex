@@ -16,6 +16,7 @@ app-misc/droid-at-screen-ng 9999: Java program that show the device screen of an
 app-portage/vortex-aliases 1: Simple aliases for use with portage
 dev-java/ddmlib 13-r1 22.6: APIs for talking with Dalvik VM
 dev-java/support-annotations 22.6: APIs for talking with Dalvik VM
+dev-util/debian-devscripts 2.16.1: Scripts to make the life of a Debian Package maintainer easier
 dev-util/dex2jar 0.0.9.15: Tools to work with android .dex and java .class files
 dev-util/meld 3.14.0-r1: A graphical diff and merge tool
 games-emulation/gens-gs 7-r4: A Gens fork which aims to clean up the source code and combine features from other forks
