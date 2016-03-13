@@ -24,7 +24,7 @@ games-simulation/vegastrike 9999: A 3D space simulator that allows you to trade 
 games-simulation/vegastrike-data 9999: A 3D space simulator that allows you to trade and bounty hunt
 games-strategy/s25rttr 0.8.1.9374 9999-r2: Open Source remake of The Settlers II game (needs original game files)
 games-strategy/vcmi 0.98 9999: VCMI is work-in-progress attempt to recreate engine for Heroes III.
-gnome-extra/chrome-gnome-shell 5.1: Provides integration with GNOME Shell extensions repository for Chrome browser
+gnome-extra/chrome-gnome-shell 5.1 5.2: Provides integration with GNOME Shell extensions repository for Chrome browser
 mail-filter/opendkim 2.9.2-r2: A milter-based application to provide DKIM signing and verification
 media-libs/libquvi 0.4.1-r1: Library for parsing video download links
 media-plugins/audacious-plugins 3.7: Audacious Player - Your music, your way, no exceptions
