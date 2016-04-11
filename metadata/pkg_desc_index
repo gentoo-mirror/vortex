@@ -15,6 +15,7 @@ app-misc/2gis-bin 4.15.2-r1: Maps & business listings
 app-misc/droid-at-screen-ng 9999: Java program that show the device screen of an Android phone at a computer
 app-portage/vortex-aliases 1: Simple aliases for use with portage
 dev-java/ddmlib 13-r1 22.6: APIs for talking with Dalvik VM
+dev-java/icedtea 3.0.0-r1: A harness to build OpenJDK using Free Software build tools and dependencies
 dev-java/support-annotations 22.6: APIs for talking with Dalvik VM
 dev-util/debian-devscripts 2.16.1: Scripts to make the life of a Debian Package maintainer easier
 dev-util/dex2jar 0.0.9.15: Tools to work with android .dex and java .class files
