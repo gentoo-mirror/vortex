@@ -22,8 +22,6 @@ mail-filter/opendkim:opendbx - Use opendbx backend to facilitate dataset driven 
 mail-filter/opendkim:poll - Use poll() instead of select() for the provided asynchronous resolver library.
 mail-filter/opendkim:sasl - Used to authenticate to a LDAP server in various ways if required.
 mail-filter/opendkim:unbound - Use the unbound dnssec library to perform DKIM DNS queries.
-net-dns/ddclient:cloudflare - Enable support for updating IP address via CloudFlare
-net-dns/ddclient:hardened - Use iproute2 instead of ifconfig to grab an IP address
 sys-apps/pcsc-lite:libusb - Use dev-libs/libusb detection to hotplug new smartcard readers. This flag should only be enabled if you're running a non-Linux kernel or you don't want to use sys-fs/udev.
 sys-apps/pcsc-lite:policykit - Uses sys-auth/polkit to restrict access to smartcard readers or smartcars to given users.
 sys-apps/pcsc-lite:udev - Use sys-fs/udev rules to handle devices' permissions and hotplug support. Unless you know what you're doing do not disable this flag on Linux kernels. This is provided as an option for completeness.
