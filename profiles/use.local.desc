@@ -27,6 +27,8 @@ sys-apps/pcsc-lite:policykit - Uses sys-auth/polkit to restrict access to smartc
 sys-apps/pcsc-lite:udev - Use sys-fs/udev rules to handle devices' permissions and hotplug support. Unless you know what you're doing do not disable this flag on Linux kernels. This is provided as an option for completeness.
 sys-fs/android-file-transfer-linux:fuse - Enable the sys-fs/fuse filesystem support
 sys-fs/android-file-transfer-linux:gui - Add support for QT GUI
+www-servers/tomcat:extra-webapps - Build also the docs and examples webapp
+www-servers/tomcat:websockets - Builds websockets api and implementation (requires java 7)
 x11-libs/wxGTK:gnome - Use gnome-base/libgnomeprintui for printing tasks.
 x11-libs/wxGTK:gstreamer - Enable the wxMediaCtrl class for playing audio and video through gstreamer.
 x11-libs/wxGTK:sdl - Use Simple Directmedia Layer (media-libs/libsdl) for audio.
