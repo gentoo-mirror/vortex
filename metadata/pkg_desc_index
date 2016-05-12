@@ -17,6 +17,7 @@ app-portage/vortex-aliases 1: Simple aliases for use with portage
 dev-java/ddmlib 13-r1 22.6: APIs for talking with Dalvik VM
 dev-java/icedtea 3.0.1-r1: A harness to build OpenJDK using Free Software build tools and dependencies
 dev-java/support-annotations 22.6: APIs for talking with Dalvik VM
+dev-libs/rapidjson 9999: Fast JSON parser/generator for C++
 dev-util/debian-devscripts 2.16.1: Scripts to make the life of a Debian Package maintainer easier
 dev-util/dex2jar 0.0.9.15: Tools to work with android .dex and java .class files
 dev-util/dput-ng 1.10: Next generation Debian package upload tool
@@ -29,6 +30,7 @@ games-strategy/vcmi 0.98 9999: VCMI is work-in-progress attempt to recreate engi
 media-libs/libquvi 0.4.1-r1: Library for parsing video download links
 media-plugins/audacious-plugins 3.7: Audacious Player - Your music, your way, no exceptions
 media-sound/audacious 3.7: Audacious Player - Your music, your way, no exceptions
+net-im/icq 9999: Simple way to communicate and nothing extra.
 sys-apps/pcsc-lite 1.8.13-r2: PC/SC Architecture smartcard middleware library
 sys-apps/yum-utils 1.1.31: Utilities for yum such as repotrack, reposync, and yumdownloader
 sys-fs/android-file-transfer-linux 2.0: Reliable MTP client with minimalistic UI
