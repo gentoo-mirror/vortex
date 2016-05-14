@@ -18,7 +18,7 @@ dev-java/ddmlib 13-r1 22.6: APIs for talking with Dalvik VM
 dev-java/icedtea 3.0.1-r1: A harness to build OpenJDK using Free Software build tools and dependencies
 dev-java/support-annotations 22.6: APIs for talking with Dalvik VM
 dev-libs/rapidjson 9999: Fast JSON parser/generator for C++
-dev-util/debian-devscripts 2.16.1: Scripts to make the life of a Debian Package maintainer easier
+dev-util/devscripts 2.16.4: Scripts to make the life of a Debian Package maintainer easier
 dev-util/dex2jar 0.0.9.15: Tools to work with android .dex and java .class files
 dev-util/distro-info 0.14: Provides information about the Debian distributions' releases
 dev-util/distro-info-data 0.29: Information about the Debian distributions' releases (data files)
