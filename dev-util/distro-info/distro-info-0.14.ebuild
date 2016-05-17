@@ -16,15 +16,16 @@ SRC_URI="mirror://debian/pool/main/d/${PN}/${PN}_${PV}.tar.xz"
 LICENSE="ISC"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="python"
+IUSE="python test"
 
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 
-DEPEND="python? ( ${PYTHON_DEPS} )"
-RDEPEND="${DEPEND}
-	dev-lang/perl:=
-	dev-util/distro-info-data
-"
+CDEPEND="dev-lang/perl:=
+	python? ( ${PYTHON_DEPS} )"
+DEPEND="${CDEPEND}
+	test? ( dev-util/shunit2 )"
+RDEPEND="${CDEPEND}
+	dev-util/distro-info-data"
 
 src_prepare() {
 	default
@@ -33,11 +34,13 @@ src_prepare() {
 	# 2. Strip *FLAGS
 	# 3. Strip predefined CFLAGS
 	# 4. Point to correct perl's vendorlib
+	# 5. Remove python tests - python eclass will be used instead
 	sed -e "/cd python && python/d" \
 		-e "/VENDOR/d" \
 		-e "/dpkg-buildflags/d" \
 		-e "s/-g -O2//g" \
 		-e "s:\$(PREFIX)/share/perl5/Debian:\$(PERL_VENDORLIB)/Debian:g" \
+		-e "/pyversions/d" \
 		-i "${S}"/Makefile || die
 }
 
@@ -45,7 +48,7 @@ src_configure() {
 	default
 
 	if use python; then
-		pushd "${S}"/python > /dev/null || die
+		pushd ./python > /dev/null || die
 		distutils-r1_src_configure
 		popd > /dev/null || die
 	fi
@@ -55,7 +58,7 @@ src_compile() {
 	default
 
 	if use python; then
-		pushd "${S}"/python > /dev/null || die
+		pushd ./python > /dev/null || die
 		distutils-r1_src_compile
 		popd > /dev/null || die
 	fi
@@ -66,8 +69,22 @@ src_install() {
 		DESTDIR="${D}" install
 
 	if use python; then
-		pushd "${S}"/python > /dev/null || die
+		pushd ./python > /dev/null || die
 		distutils-r1_src_install
+		popd > /dev/null || die
+	fi
+}
+
+src_test() {
+	TZ=UTC default
+
+	if use python; then
+		python_test() {
+			"${PYTHON}" setup.py test
+		}
+
+		pushd ./python > /dev/null || die
+		python_foreach_impl python_test
 		popd > /dev/null || die
 	fi
 }
