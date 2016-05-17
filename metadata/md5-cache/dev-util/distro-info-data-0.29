@@ -1,4 +1,4 @@
-DEFINED_PHASES=-
+DEFINED_PHASES=test
 DESCRIPTION=Information about the Debian distributions' releases (data files)
 EAPI=6
 HOMEPAGE=https://debian.org/
@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=ISC
 SLOT=0
 SRC_URI=mirror://debian/pool/main/d/distro-info-data/distro-info-data_0.29.tar.xz
-_eclass_exported_funcs=-
-_md5_=ca0ac5f87a3169f0c6ac99abf8937bf1
+_eclass_exported_funcs=src_test:-
+_md5_=7d67868f61636e5d77e8cf4e14cfce28
