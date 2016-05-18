@@ -5,19 +5,19 @@
 EAPI=5
 
 MODULE_AUTHOR=RJBS
-MODULE_VERSION=0.103012
+MODULE_VERSION=0.200006
 inherit perl-module
 
-DESCRIPTION="Provide templated software licenses"
+DESCRIPTION="Read multiple hunks of data out of your DATA section"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="test"
 
+DEPEND="test? ( dev-perl/Test-FailWarnings )"
 RDEPEND="
-	dev-perl/Data-Section
-	dev-perl/Text-Template
-	dev-perl/Try-Tiny
+	dev-perl/MRO-Compat
+	dev-perl/Sub-Exporter
 	virtual/perl-Encode
 "
 
