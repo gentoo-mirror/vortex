@@ -22,9 +22,6 @@ dev-perl/Data-Section 0.200006: Read multiple hunks of data out of your DATA sec
 dev-perl/Software-License 0.103012: Provide templated software licenses
 dev-util/devscripts 2.16.4: Scripts to make the life of a Debian Package maintainer easier
 dev-util/dex2jar 0.0.9.15: Tools to work with android .dex and java .class files
-dev-util/distro-info 0.14: Provides information about the Debian distributions' releases
-dev-util/distro-info-data 0.29: Information about the Debian distributions' releases (data files)
-dev-util/dput-ng 1.10-r1: Next generation Debian package upload tool
 dev-util/meld 3.14.0-r1: A graphical diff and merge tool
 games-emulation/gens-gs 7-r4: A Gens fork which aims to clean up the source code and combine features from other forks
 games-simulation/vegastrike 9999: A 3D space simulator that allows you to trade and bounty hunt
