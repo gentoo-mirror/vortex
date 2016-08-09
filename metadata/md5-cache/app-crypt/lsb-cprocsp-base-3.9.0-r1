@@ -9,5 +9,5 @@ RESTRICT=fetch mirror strip
 SLOT=0
 SRC_URI=lsb-cprocsp-base-3.9.0-4.noarch.rpm
 _eclass_exported_funcs=pkg_prerm:cryptopro pkg_postinst:- pkg_setup:- src_unpack:rpm src_install:-
-_eclasses_=cryptopro	52b4a64dbfceba057a937afb3c6ca5c7	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	rpm	3e120fdd74b358f9fb42b825a6558f61	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	user	c66cbe7502fe1161066eb947d15b79f6
+_eclasses_=cryptopro	52b4a64dbfceba057a937afb3c6ca5c7	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	rpm	3e120fdd74b358f9fb42b825a6558f61	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	user	c66cbe7502fe1161066eb947d15b79f6
 _md5_=a0d6e241b59042637ad3d20dc26f1f6f
