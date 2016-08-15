@@ -10,30 +10,33 @@ inherit eutils java-pkg-2 java-ant-2 prefix systemd user
 
 MY_P="apache-${P}-src"
 
-DESCRIPTION="Tomcat Servlet-3.0/JSP-2.2 Container"
+DESCRIPTION="Tomcat Servlet-3.1/JSP-2.3/EL-3.0/WebSocket-1.1/JASPIC-1.1 Container"
 HOMEPAGE="http://tomcat.apache.org/"
-SRC_URI="mirror://apache/${PN}/tomcat-7/v${PV}/src/${MY_P}.tar.gz"
+SRC_URI="mirror://apache/${PN}/tomcat-8/v${PV}/src/${MY_P}.tar.gz"
 
 LICENSE="Apache-2.0"
-SLOT="7"
-KEYWORDS="~amd64 ~ppc64 ~x86 ~x86-freebsd ~amd64-linux ~x86-linux ~x86-solaris"
-IUSE="extra-webapps websockets"
+SLOT="8.5"
+KEYWORDS="~amd64 ~x86 ~x86-fbsd ~x86-freebsd ~amd64-linux ~x86-linux ~x86-solaris"
+IUSE="extra-webapps"
 
 RESTRICT="test" # can we run them on a production system?
 
 ECJ_SLOT="4.5"
-SAPI_SLOT="3.0"
+SAPI_SLOT="3.1"
 
 COMMON_DEP="dev-java/eclipse-ecj:${ECJ_SLOT}
-	dev-java/tomcat-servlet-api:${SAPI_SLOT}"
+	>=dev-java/tomcat-servlet-api-${SLOT}:${SAPI_SLOT}"
 RDEPEND="${COMMON_DEP}
-	websockets? ( >=virtual/jre-1.7 )
-	!websockets? ( >=virtual/jre-1.6 )
-	!<dev-java/tomcat-native-1.1.24"
+	!<dev-java/tomcat-native-1.1.24
+	sys-apps/gentoo-functions
+	>=virtual/jre-1.7"
 DEPEND="${COMMON_DEP}
-	websockets? ( >=virtual/jdk-1.7 )
-	!websockets? ( >=virtual/jdk-1.6 )
-	test? ( dev-java/ant-junit:0 )"
+	app-admin/pwgen
+	>=virtual/jdk-1.7
+	test? (
+		>=dev-java/ant-junit-1.9:0
+		dev-java/easymock:3.2
+	)"
 
 S=${WORKDIR}/${MY_P}
 
@@ -54,10 +57,10 @@ pkg_setup() {
 java_prepare() {
 	default
 
+	find -name '*.jar' -type f -delete -print || die
+
 	# Remove bundled servlet-api
 	rm -rv java/javax/{el,servlet} || die
-
-	java-pkg_clean
 
 	epatch "${FILESDIR}/${P}-build.xml.patch"
 
@@ -71,6 +74,7 @@ JAVA_ANT_REWRITE_CLASSPATH="true"
 
 EANT_BUILD_TARGET="deploy"
 EANT_GENTOO_CLASSPATH="eclipse-ecj-${ECJ_SLOT},tomcat-servlet-api-${SAPI_SLOT}"
+EANT_TEST_GENTOO_CLASSPATH="easymock-3.2"
 EANT_GENTOO_CLASSPATH_EXTRA="${S}/output/classes"
 EANT_NEEDS_TOOLS="true"
 EANT_EXTRA_ARGS="-Dversion=${PV}-gentoo -Dversion.number=${PV} -Dcompile.debug=false"
@@ -79,7 +83,6 @@ EANT_EXTRA_ARGS="-Dversion=${PV}-gentoo -Dversion.number=${PV} -Dcompile.debug=f
 INIT_REV="-r2"
 
 src_compile() {
-	use websockets && EANT_EXTRA_ARGS+=" -Djava.7.home=${JAVA_HOME}"
 	EANT_GENTOO_CLASSPATH_EXTRA+=":$(java-pkg_getjar --build-only ant-core ant.jar)"
 	java-pkg-2_src_compile
 }
@@ -105,6 +108,13 @@ src_install() {
 
 	### Webapps ###
 
+	# add missing docBase
+	local apps="host-manager manager"
+	for app in ${apps}; do
+		sed -i -e "s|=\"true\" >|=\"true\" docBase=\"\$\{catalina.home\}/webapps/${app}\" >|" \
+			output/build/webapps/${app}/META-INF/context.xml || die
+	done
+
 	insinto "${dest}"/webapps
 	doins -r output/build/webapps/{host-manager,manager,ROOT}
 	use extra-webapps && doins -r output/build/webapps/{docs,examples}
@@ -116,7 +126,7 @@ src_install() {
 	fowners tomcat:tomcat /var/logs/"${PN}"-"${SLOT}"
 
 	# replace the default pw with a random one, see #92281
-	local randpw=$(echo ${RANDOM}|md5sum|cut -c 1-15)
+	local randpw="$(pwgen -s -B 15 1)"
 	sed -i -e "s|SHUTDOWN|${randpw}|" output/build/conf/server.xml || die
 
 	# prepend gentoo.classpath to common.loader, see #453212
@@ -152,7 +162,7 @@ src_install() {
 
 pkg_postinst() {
 	elog "New ebuilds of Tomcat support running multiple instances. If you used prior version"
-	elog "of Tomcat (<7.0.70-r1), you have to migrate your existing instance to work with new Tomcat."
+	elog "of Tomcat (<8.5.4-r1), you have to migrate your existing instance to work with new Tomcat."
 	elog "You can find more information at https://wiki.gentoo.org/wiki/Apache_Tomcat"
 	echo
 
@@ -160,7 +170,4 @@ pkg_postinst() {
 	elog "Alternatively for systemd you can run"
 	elog "        systemd-tmpfiles --create"
 	elog "without reboot."
-
-	ewarn "tomcat-dbcp.jar is not built at this time. Please fetch jar"
-	ewarn "from upstream binary if you need it. Gentoo Bug # 144276"
 }
