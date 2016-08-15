@@ -2,11 +2,14 @@
 # Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-source /lib/gentoo/functions.sh
+# Check for OpenRC and include gentoo-functions if needed
+if [ -z "${RC_SVCNAME}" ]; then
+	source @GENTOO_PORTAGE_EPREFIX@/lib/gentoo/functions.sh
+fi
 
-: ${CATALINA_HOME:=/@GENTOO_PORTAGE_EPREFIX@usr/share/tomcat-@SLOT@}
-: ${TOMCATS_BASE:=/@GENTOO_PORTAGE_EPREFIX@var/lib/tomcats/}
-: ${CATALINA_TMPDIR:=/@GENTOO_PORTAGE_EPREFIX@var/cache/tomcat-@SLOT@/tmp}
+: ${CATALINA_HOME:=@GENTOO_PORTAGE_EPREFIX@/usr/share/tomcat-@SLOT@}
+: ${TOMCATS_BASE:=@GENTOO_PORTAGE_EPREFIX@/var/lib/tomcats/}
+: ${CATALINA_TMPDIR:=@GENTOO_PORTAGE_EPREFIX@/var/cache/tomcat-@SLOT@/tmp}
 
 : ${TOMCAT_START:=start}
 
@@ -31,8 +34,13 @@ export CLASSPATH="${CATALINA_HOME}/bin/bootstrap.jar:${CATALINA_HOME}/bin/tomcat
 
 if [ "$1" = "start" ]; then
 	if [ ! -e "${CATALINA_TMPDIR}" ]; then
+		CONFIGURATION="@GENTOO_PORTAGE_EPREFIX@/etc/conf.d/tomcat-@SLOT@"
+		if [ -n "${CATALINA_INSTANCE}" ]; then
+			CONFIGURATION="${CONFIGURATION}.${CATALINA_INSTANCE//\//-}"
+		fi
+
 		eerror "CATALINA_TMPDIR does not exist. Unable to start tomcat."
-		eerror "Please see /@GENTOO_PORTAGE_EPREFIX@etc/conf.d/${RC_SVCNAME} for more information."
+		eerror "Please see ${CONFIGURATION} for more information."
 		exit 1
 	fi
 
