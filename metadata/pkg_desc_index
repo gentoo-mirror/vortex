@@ -24,7 +24,6 @@ dev-util/devscripts 2.16.4: Scripts to make the life of a Debian Package maintai
 dev-util/dex2jar 0.0.9.15: Tools to work with android .dex and java .class files
 dev-util/meld 3.14.0-r1: A graphical diff and merge tool
 games-emulation/gens-gs 7-r4: A Gens fork which aims to clean up the source code and combine features from other forks
-games-emulation/pcsx2 9999-r1: A PlayStation 2 emulator
 games-simulation/vegastrike 9999: A 3D space simulator that allows you to trade and bounty hunt
 games-simulation/vegastrike-data 9999: A 3D space simulator that allows you to trade and bounty hunt
 games-strategy/s25rttr 0.8.1.9374 9999-r2: Open Source remake of The Settlers II game (needs original game files)
