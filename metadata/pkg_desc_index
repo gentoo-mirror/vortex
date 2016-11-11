@@ -37,6 +37,7 @@ sys-apps/pcsc-lite 1.8.13-r2: PC/SC Architecture smartcard middleware library
 sys-apps/yum-utils 1.1.31: Utilities for yum such as repotrack, reposync, and yumdownloader
 sys-fs/android-file-transfer-linux 2.0: Reliable MTP client with minimalistic UI
 sys-kernel/vortex-build 2: Simple Linux kernel build scripts
+sys-libs/timezone-data 2016i-r1: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump)
 www-plugins/cprocsp-npcades 3.9.0-r1: CryptoPro CAdES NPAPI plugin library.
 www-plugins/ifcplugin 2.0.6.0: Crypto Interface Web Browser Plugin
 www-servers/tomcat 7.0.70-r1 8.0.36-r1 8.5.4-r1: Tomcat Servlet-3.1/JSP-2.3/EL-3.0/WebSocket-1.1/JASPIC-1.1 Container
