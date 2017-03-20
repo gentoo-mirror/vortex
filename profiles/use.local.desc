@@ -3,13 +3,6 @@
 # * generated automatically using pmaint *
 
 app-crypt/cprocsp-rdr-pcsc:ccid - Use app-crypt/ccid free software driver to access PC/SC smart card
-games-simulation/vegastrike:boost - Enables support for system dev-libs/boost instead of included one. Recommended.
-games-simulation/vegastrike:debug - Enable debugging support.
-games-simulation/vegastrike:ffmpeg - Enables support for media-video/ffmpeg. Recommended.
-games-simulation/vegastrike:gtk - Uses x11-libs/gtk+ allowing graphical configuration with vssetup. Recommended.
-games-simulation/vegastrike:mesher - Builds the Vega Strike mesh tool. Presumably used by starship designers for converting 3D models. Optional.
-games-simulation/vegastrike:server - Builds the Vega Strike server. Optional.
-games-simulation/vegastrike:threads - Enables preliminary support for SMP configuration. Most probably doesn't have any effect at the moment.
 games-strategy/s25rttr:glfw - Build glfw video plugin
 games-strategy/vcmi:editor - Enable compilation of map editor
 games-strategy/vcmi:erm - Enable compilation of ERM scripting module
