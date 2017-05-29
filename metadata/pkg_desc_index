@@ -20,8 +20,10 @@ dev-libs/rapidjson 9999: Fast JSON parser/generator for C++
 dev-perl/Data-Section 0.200006: Read multiple hunks of data out of your DATA section
 dev-perl/Software-License 0.103012: Provide templated software licenses
 dev-perl/gnome-pkg-tools 0.19.7: Useful tools for the Debian GNOME Packaging Team
+dev-util/aosp-devel-meta 7: Meta package providing AOSP build environment
 dev-util/devscripts 2.16.4: Scripts to make the life of a Debian Package maintainer easier
 dev-util/dex2jar 0.0.9.15: Tools to work with android .dex and java .class files
+dev-util/lineageos-devel-meta 14.1: Meta package providing LineageOS build environment
 dev-util/meld 3.14.0-r1: A graphical diff and merge tool
 games-emulation/gens-gs 7-r4: A Gens fork which aims to clean up the source code and combine features from other forks
 games-strategy/s25rttr 0.8.1.9374 9999-r2: Open Source remake of The Settlers II game (needs original game files)
