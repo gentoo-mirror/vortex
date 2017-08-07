@@ -34,7 +34,7 @@ media-sound/audacious 3.7: Audacious Player - Your music, your way, no exception
 net-im/icq 9999: Simple way to communicate and nothing extra.
 sys-apps/pcsc-lite 1.8.13-r2: PC/SC Architecture smartcard middleware library
 sys-fs/android-file-transfer-linux 2.0: Reliable MTP client with minimalistic UI
-sys-kernel/vortex-build 2: Simple Linux kernel build scripts
+sys-kernel/vortex-build 2 3: Simple Linux kernel build scripts
 sys-libs/timezone-data 2016i-r1: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump)
 www-plugins/cprocsp-npcades 3.9.0-r1: CryptoPro CAdES NPAPI plugin library.
 www-plugins/ifcplugin 2.0.6.0: Crypto Interface Web Browser Plugin
