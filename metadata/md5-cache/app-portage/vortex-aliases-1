@@ -6,5 +6,4 @@ KEYWORDS=*
 LICENSE=GPL-3
 RDEPEND=sys-apps/portage
 SLOT=0
-_eclass_exported_funcs=src_install:-
 _md5_=4920357e9b4db71ca09f39152688ee60
