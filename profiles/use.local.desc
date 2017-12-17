@@ -2,19 +2,3 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-crypt/cprocsp-rdr-pcsc:ccid - Use app-crypt/ccid free software driver to access PC/SC smart card
-games-strategy/s25rttr:glfw - Build glfw video plugin
-games-strategy/vcmi:editor - Enable compilation of map editor
-games-strategy/vcmi:erm - Enable compilation of ERM scripting module
-games-strategy/vcmi:launcher - Enable compilation of launcher
-sys-apps/pcsc-lite:libusb - Use dev-libs/libusb detection to hotplug new smartcard readers. This flag should only be enabled if you're running a non-Linux kernel or you don't want to use sys-fs/udev.
-sys-apps/pcsc-lite:policykit - Uses sys-auth/polkit to restrict access to smartcard readers or smartcars to given users.
-sys-apps/pcsc-lite:udev - Use sys-fs/udev rules to handle devices' permissions and hotplug support. Unless you know what you're doing do not disable this flag on Linux kernels. This is provided as an option for completeness.
-sys-fs/android-file-transfer-linux:fuse - Enable the sys-fs/fuse filesystem support
-sys-fs/android-file-transfer-linux:gui - Add support for QT GUI
-sys-libs/timezone-data:leaps_timezone - Install the set of "right" timezones; these timezones include leap seconds when counting seconds since the epoch (while POSIX does not) as they are based on the TAI (International Atomic Time) clock
-www-servers/tomcat:extra-webapps - Build also the docs and examples webapp
-www-servers/tomcat:websockets - Builds websockets api and implementation (requires java 7)
-x11-libs/wxGTK:gnome - Use gnome-base/libgnomeprintui for printing tasks.
-x11-libs/wxGTK:gstreamer - Enable the wxMediaCtrl class for playing audio and video through gstreamer.
-x11-libs/wxGTK:sdl - Use Simple Directmedia Layer (media-libs/libsdl) for audio.
