@@ -1,4 +1,4 @@
-DEFINED_PHASES=install postinst prerm setup unpack
+DEFINED_PHASES=install nofetch postinst prerm setup unpack
 DEPEND=>=app-arch/rpm2targz-9.0.0.3g
 DESCRIPTION=CryptoPro PKI shared library.
 EAPI=5
