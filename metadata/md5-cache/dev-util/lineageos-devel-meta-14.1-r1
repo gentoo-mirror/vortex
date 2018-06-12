@@ -4,6 +4,6 @@ EAPI=6
 HOMEPAGE=https://lineageos.org
 KEYWORDS=~amd64 ~x86
 LICENSE=metapackage
-RDEPEND=app-arch/lz4 app-arch/lzop =dev-util/aosp-devel-meta-7 media-gfx/imagemagick media-gfx/pngcrush
+RDEPEND=app-arch/lz4 app-arch/lzop =dev-util/aosp-devel-meta-7-r1 media-gfx/imagemagick media-gfx/pngcrush
 SLOT=0
-_md5_=90b23aeb7a57eb940b298b414a126d6e
+_md5_=7def2a9575f37459ff0f32305ad73522
