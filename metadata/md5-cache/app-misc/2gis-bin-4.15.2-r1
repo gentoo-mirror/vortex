@@ -8,5 +8,5 @@ LICENSE=freedist
 RDEPEND=virtual/opengl x11-libs/libX11 x11-libs/libxcb x11-libs/libXau x11-libs/libXcomposite x11-libs/libXdmcp x11-libs/libXi x11-libs/libXrender
 SLOT=0
 SRC_URI=amd64? ( http://deb.2gis.ru/pool/non-free/2/2gis/2gis_4.15.2-0trusty1+shv280+r339_amd64.deb ) x86? ( http://deb.2gis.ru/pool/non-free/2/2gis/2gis_4.15.2-0trusty1+shv280+r15_i386.deb )
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	unpacker	f40f7b4bd5aa88c2a4ba7b0d1e0ded70	versionator	26ca8a8bd95d6a74122c08ba98a4ee72
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	unpacker	87633b2194cdb56adaa1f5a5c8862c44	versionator	26ca8a8bd95d6a74122c08ba98a4ee72
 _md5_=769c1902c667f871c07ea42ac867c696
