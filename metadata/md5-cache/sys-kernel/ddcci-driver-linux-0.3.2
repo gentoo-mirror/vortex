@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig virtual/pkgconfig
+DEFINED_PHASES=compile install postinst postrm preinst setup
+DEPEND=kernel_linux? ( virtual/modutils ) sys-apps/sed kernel_linux? ( virtual/linux-sources virtual/libelf )
+DESCRIPTION=Detects DDC/CI devices on DDC I2C busses and creates corresponding devices.
+EAPI=7
+HOMEPAGE=https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux
+IUSE=nvidia systemd kernel_linux kernel_linux
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=systemd? ( app-misc/ddcutil ) kernel_linux? ( virtual/modutils )
+REQUIRED_USE=nvidia? ( systemd )
+SLOT=0
+SRC_URI=https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux/-/archive/v0.3.2/ddcci-driver-linux-v0.3.2.tar.bz2
+_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	linux-info	953c3b1c472dcadbf62098a9301327f2	linux-mod	dc67f5064036fbaf4bb77b68a9caeda0	multilib	b2f01ad412baf81650c23fcf0975fa33	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	b45201c4e6c096b98e250336954e64b9	udev	7752f306eec7b286d00bdb47b763e7ac
+_md5_=b462114ebf6de050ae9652548c19d82a
