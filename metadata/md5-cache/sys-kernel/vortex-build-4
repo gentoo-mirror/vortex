@@ -1,0 +1,10 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=Simple Linux kernel build scripts
+EAPI=7
+HOMEPAGE=https://github.com/nE0sIghT/vortex-overlay
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=app-admin/eselect app-arch/gzip sys-apps/coreutils sys-apps/gentoo-functions sys-apps/grep sys-apps/portage sys-apps/util-linux virtual/awk
+SLOT=0
+_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8
+_md5_=c6865c2251ccda8ee11becf6817f62f6
