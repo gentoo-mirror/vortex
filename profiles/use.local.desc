@@ -2,3 +2,64 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-crypt/cprocsp-rdr-pcsc:ccid - Use app-crypt/ccid free software driver to access PC/SC smart card
+app-emulation/retroarch:X - Enable Xorg support
+app-emulation/retroarch:alsa - Build ALSA audio driver
+app-emulation/retroarch:cg - Enable Cg shader support
+app-emulation/retroarch:cpu_flags_x86_sse - Enable x86 SSE optimizations (SSE, SSE2)
+app-emulation/retroarch:dbus - Enable dbus support
+app-emulation/retroarch:egl - Enable EGL context support
+app-emulation/retroarch:ffmpeg - Enable FFmpeg support
+app-emulation/retroarch:flac - Compile in flac support
+app-emulation/retroarch:freetype - Enable FreeType support
+app-emulation/retroarch:gles - Use GLESv2 instead of desktop GL
+app-emulation/retroarch:gles3 - Enable OpenGLES3 support
+app-emulation/retroarch:kms - Enable KMS context support
+app-emulation/retroarch:libcaca - Enable Libcaca support
+app-emulation/retroarch:libusb - Enable Libusb HID support
+app-emulation/retroarch:materialui - Enable MaterialUI menu
+app-emulation/retroarch:miniupnpc - Enable Mini UPnP client library (for NAT traversal)
+app-emulation/retroarch:openal - Build OpenAL audio driver
+app-emulation/retroarch:opengl - Build OpenGL 2.0 video driver
+app-emulation/retroarch:ozone - Enable Ozone menu
+app-emulation/retroarch:pulseaudio - Build PulseAudio audio driver
+app-emulation/retroarch:python - Enable Python 3 support for shaders
+app-emulation/retroarch:qt - Enable Qt companion support
+app-emulation/retroarch:rgui - Enable RGUI menu
+app-emulation/retroarch:sdl - Enable SDL suppoer
+app-emulation/retroarch:sdl2 - Enable SDL2 support (disables SDL 1.x)
+app-emulation/retroarch:sixel - Enable Libsixel support
+app-emulation/retroarch:ssl - Enable SSL/mbedtls support
+app-emulation/retroarch:stripes - Enable Stripes menu
+app-emulation/retroarch:subtitles - Enable SSA/ASS for FFmpeg subtitle support
+app-emulation/retroarch:systemd - Enable Systemd support
+app-emulation/retroarch:tinyalsa - Build TinyALSA audio driver
+app-emulation/retroarch:udev - Enable Udev/Evdev gamepad support
+app-emulation/retroarch:vulkan - Build Vulkan video driver
+app-emulation/retroarch:wayland - Enable Wayland support
+app-emulation/retroarch:xmb - Enable XMB menu
+app-emulation/retroarch:xrandr - Enable Xrandr support
+app-emulation/retroarch:xv - Enable XVideo support
+app-emulation/retroarch:zlib - Enable zlib support (ZIP extract, PNG decoding/encoding)
+games-strategy/s25rttr:glfw - Build glfw video plugin
+games-strategy/vcmi:editor - Enable compilation of map editor
+games-strategy/vcmi:erm - Enable compilation of ERM scripting module
+games-strategy/vcmi:launcher - Enable compilation of launcher
+net-firewall/firewalld:gui - Builds and installs GUI configurator and GTK+ applet
+net-news/liferea:gnome-keyring - Enable support for Libsecret Support plugin that allows Liferea to use app-crypt/libsecret as password store
+net-news/liferea:mediaplayer - Enable support for Media Player plugin that allows to play music and videos directly from Liferea
+net-news/liferea:networkmanager - Use NetworkManager to monitor nerwork status
+net-news/liferea:notification - Enable support for Popup Notifications plugin that display popups informing about new updates
+net-news/liferea:tray - Enable support for Tray Icon (GNOME Classic) plugin that display a small system tray icon to hide/unhide Liferea
+sys-apps/pcsc-lite:libusb - Use dev-libs/libusb detection to hotplug new smartcard readers. This flag should only be enabled if you're running a non-Linux kernel or you don't want to use sys-fs/udev.
+sys-apps/pcsc-lite:policykit - Uses sys-auth/polkit to restrict access to smartcard readers or smartcars to given users.
+sys-apps/pcsc-lite:udev - Use sys-fs/udev rules to handle devices' permissions and hotplug support. Unless you know what you're doing do not disable this flag on Linux kernels. This is provided as an option for completeness.
+sys-fs/android-file-transfer-linux:fuse - Enable the sys-fs/fuse filesystem support
+sys-fs/android-file-transfer-linux:gui - Add support for QT GUI
+sys-kernel/ddcci-driver-linux:nvidia - NVidia proprietary driver support
+sys-libs/timezone-data:leaps_timezone - Install the set of "right" timezones; these timezones include leap seconds when counting seconds since the epoch (while POSIX does not) as they are based on the TAI (International Atomic Time) clock
+www-servers/tomcat:extra-webapps - Build also the docs and examples webapp
+www-servers/tomcat:websockets - Builds websockets api and implementation (requires java 7)
+x11-libs/wxGTK:gnome - Use gnome-base/libgnomeprintui for printing tasks.
+x11-libs/wxGTK:gstreamer - Enable the wxMediaCtrl class for playing audio and video through gstreamer.
+x11-libs/wxGTK:sdl - Use Simple Directmedia Layer (media-libs/libsdl) for audio.
