@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Collection of overlay files for use with RetroArch
+EAPI=7
+HOMEPAGE=https://github.com/libretro/common-overlays
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+SLOT=0
+SRC_URI=https://github.com/libretro/common-overlays/archive/c648ade231b7882e95d34e0eec5fd92c9045b696.tar.gz -> libretro-common-overlays-1_pre20190817.tar.gz
+_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_md5_=ad5d8eed94c7fa2321874288dc4cfd50
