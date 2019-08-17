@@ -46,6 +46,7 @@ REQUIRED_USE="
 "
 
 RDEPEND="
+	games-emulation/libretro-common-overlays
 	games-emulation/libretro-database
 	games-emulation/libretro-info
 	games-emulation/retroarch-assets
@@ -115,14 +116,15 @@ src_prepare() {
 	local LIBRETRO_DATA_DIR="${EPREFIX}/usr/share/libretro"
 	local RETROARCH_DATA_DIR="${EPREFIX}/usr/share/${PN}"
 	sed -i \
-		-e "s:# \(assets_directory =\):\1 ${RETROARCH_DATA_DIR}/assets:g" \
-		-e "s:# \(joypad_autoconfig_dir =\):\1 ${RETROARCH_DATA_DIR}/autoconfig:g" \
-		-e "s:# \(cheat_database_path =\):\1 ${LIBRETRO_DATA_DIR}/database/cht:g" \
-		-e "s:# \(content_database_path =\):\1 ${LIBRETRO_DATA_DIR}/database/rdb:g" \
-		-e "s:# \(cursor_directory =\):\1 ${LIBRETRO_DATA_DIR}/database/cursors:g" \
-		-e "s:# \(libretro_directory =\):\1 ${LIBRETRO_LIB_DIR}:g" \
-		-e "s:# \(libretro_info_path =\):\1 ${LIBRETRO_DATA_DIR}/info:g" \
-		-e "s:# \(video_shader_dir =\):\1 ${LIBRETRO_DATA_DIR}/shaders:g" \
+		-e "s:# \(assets_directory =\):\1 \"${RETROARCH_DATA_DIR}/assets\":g" \
+		-e "s:# \(joypad_autoconfig_dir =\):\1 \"${RETROARCH_DATA_DIR}/autoconfig\":g" \
+		-e "s:# \(cheat_database_path =\):\1 \"${LIBRETRO_DATA_DIR}/database/cht\":g" \
+		-e "s:# \(content_database_path =\):\1 \"${LIBRETRO_DATA_DIR}/database/rdb\":g" \
+		-e "s:# \(cursor_directory =\):\1 \"${LIBRETRO_DATA_DIR}/database/cursors\":g" \
+		-e "s:# \(libretro_directory =\):\1 \"${LIBRETRO_LIB_DIR}\":g" \
+		-e "s:# \(libretro_info_path =\):\1 \"${LIBRETRO_DATA_DIR}/info\":g" \
+		-e "s:# \(overlay_directory =\):\1 \"${RETROARCH_DATA_DIR}/overlay\":g" \
+		-e "s:# \(video_shader_dir =\):\1 \"${LIBRETRO_DATA_DIR}/shaders\":g" \
 		retroarch.cfg || die
 }
 
