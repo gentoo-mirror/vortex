@@ -1,0 +1,10 @@
+DEFINED_PHASES=unpack
+DESCRIPTION=Glsl shaders converted by hand from libretro's glsl-shaders repo
+EAPI=7
+HOMEPAGE=https://github.com/libretro/glsl-shaders
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/libretro/glsl-shaders/archive/38b09e4e202ba7aea1384724adcc993ead236f7d.tar.gz -> libretro-glsl-shaders-1_pre20190817.tar.gz
+_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_md5_=862b23d6ef186a6b5a034bb5386d7e65

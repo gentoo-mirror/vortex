@@ -12,35 +12,27 @@ app-crypt/lsb-cprocsp-ocsp-util 3.9.0: CryptoPro PKI shared library.
 app-crypt/lsb-cprocsp-rdr 3.9.0-r1: CryptoPro CSP readers.
 app-crypt/lsb-cprocsp-tsp-util 3.9.0: CryptoPro TSP client.
 app-emulation/openshift-cli 3.11.0: OpenShift Command-Line Interface
-app-emulation/retroarch 1.7.7: Frontend for emulators, game engines and media players
-app-misc/2gis-bin 4.15.2-r1: Maps & business listings
-app-misc/droid-at-screen-ng 9999: Java program that show the device screen of an Android phone at a computer
 app-portage/vortex-aliases 1: Simple aliases for use with portage
-dev-java/ddmlib 13-r1 22.6: APIs for talking with Dalvik VM
-dev-java/support-annotations 22.6: APIs for talking with Dalvik VM
-dev-libs/rapidjson 9999: Fast JSON parser/generator for C++
-dev-perl/Data-Section 0.200006: Read multiple hunks of data out of your DATA section
-dev-perl/Software-License 0.103012: Provide templated software licenses
-dev-perl/gnome-pkg-tools 0.19.7: Useful tools for the Debian GNOME Packaging Team
 dev-util/aosp-devel-meta 7-r1 8: Meta package providing AOSP build environment
-dev-util/devscripts 2.16.4: Scripts to make the life of a Debian Package maintainer easier
 dev-util/dex2jar 0.0.9.15 2.0: Tools to work with android .dex and java .class files
 dev-util/lineageos-devel-meta 14.1-r1 15.1: Meta package providing LineageOS build environment
-dev-util/meld 3.14.0-r1: A graphical diff and merge tool
-games-emulation/gens-gs 7-r4: A Gens fork which aims to clean up the source code and combine features from other forks
+games-emulation/libretro-bsnes 094_pre20190817: Libretro fork of bsnes
+games-emulation/libretro-common-shaders 1_pre20190817: Collection of commonly used Cg shaders
+games-emulation/libretro-database 1_pre20190817: Cheatcode files, content data files and etc. stuff for RetroArch
+games-emulation/libretro-genesis-plus-gx 1.7.5_pre20190817: An enhanced port of Genesis Plus - accurate & portable Sega 8/16 bit emulator
+games-emulation/libretro-glsl-shaders 1_pre20190817: Glsl shaders converted by hand from libretro's glsl-shaders repo
+games-emulation/libretro-info 1_pre20190817: Libretro info files required for libretro cores
+games-emulation/libretro-nestopia 1.5.0_pre20190817: Nestopia libretro port
+games-emulation/libretro-slang-shaders 1_pre20190817: Vulkan GLSL RetroArch shaders
+games-emulation/retroarch 1.7.7: Frontend for emulators, game engines and media players
+games-emulation/retroarch-assets 1_pre20190817: Assets needed for RetroArch. Also contains the official branding.
+games-emulation/retroarch-joypad-autoconfig 1_pre20190817: RetroArch joypad autoconfig files
 games-strategy/s25rttr 0.8.1.9374 9999-r2: Open Source remake of The Settlers II game (needs original game files)
 games-strategy/vcmi 0.99 9999: VCMI is work-in-progress attempt to recreate engine for Heroes III.
-media-libs/libquvi 0.4.1-r1: Library for parsing video download links
-media-plugins/audacious-plugins 3.7: Audacious Player - Your music, your way, no exceptions
-net-firewall/firewalld 0.5.5: A firewall daemon with D-BUS interface providing a dynamic firewall
-net-im/icq 9999: Simple way to communicate and nothing extra.
-net-news/liferea 1.12.6b: News Aggregator for RDF/RSS/CDF/Atom/Echo feeds
+net-firewall/firewalld 0.6.4: A firewall daemon with D-BUS interface providing a dynamic firewall
 sys-apps/pcsc-lite 1.8.13-r2: PC/SC Architecture smartcard middleware library
-sys-fs/android-file-transfer-linux 2.0: Reliable MTP client with minimalistic UI
 sys-kernel/ddcci-driver-linux 0.3.2: Detects DDC/CI devices on DDC I2C busses and creates corresponding devices.
 sys-kernel/vortex-build 4: Simple Linux kernel build scripts
-sys-libs/timezone-data 2016i-r1: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump)
 www-plugins/cprocsp-npcades 3.9.0-r1: CryptoPro CAdES NPAPI plugin library.
 www-plugins/ifcplugin 2.0.6.0: Crypto Interface Web Browser Plugin
 www-servers/tomcat 7.0.85-r1 8.0.50-r1 8.5.28-r1 9.0.5-r1: Tomcat Servlet-4.0/JSP-2.4?/EL-3.1?/WebSocket-1.2?/JASPIC-1.1 Container
-x11-libs/wxGTK 3.0.2.0-r100: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
