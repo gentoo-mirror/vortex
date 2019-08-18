@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile install prepare unpack
-DESCRIPTION=Libretro fork of bsnes
+DESCRIPTION=A fork of VBA-M with libretro integration
 EAPI=7
-HOMEPAGE=https://github.com/libretro/bsnes-libretro
+HOMEPAGE=https://github.com/libretro/vbam-libretro
 IUSE=debug
 KEYWORDS=~amd64 ~x86
-LICENSE=GPL-3
+LICENSE=GPL-2
 SLOT=0
-SRC_URI=https://github.com/libretro/bsnes-libretro/archive/41fe3ece28ee1d7ae546e777daffe1720fc1b7d1.tar.gz -> libretro-bsnes-094_pre20190817.tar.gz
+SRC_URI=https://github.com/libretro/vbam-libretro/archive/6bdd6d1b22e40cfe715f05bc6653936eae40658f.tar.gz -> libretro-vbam-2.1.3_pre20190818.tar.gz
 _eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	7ba73aee7fe4462b3a745e3645ab92ca	libretro-core	cf63c064414c3cd674ece25daebbb3fe	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56
-_md5_=f0be8f973dc802e501616c31f9c2c45f
+_md5_=36bdf40a8bc9b23ee36401399b6b060c

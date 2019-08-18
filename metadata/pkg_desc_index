@@ -25,6 +25,8 @@ games-emulation/libretro-glsl-shaders 1_pre20190817: Glsl shaders converted by h
 games-emulation/libretro-info 1_pre20190817: Libretro info files required for libretro cores
 games-emulation/libretro-nestopia 1.5.0_pre20190817: Nestopia libretro port
 games-emulation/libretro-slang-shaders 1_pre20190817: Vulkan GLSL RetroArch shaders
+games-emulation/libretro-vba-next 1.0.2_pre20190818: Optimized port of VBA-M to Libretro
+games-emulation/libretro-vbam 2.1.3_pre20190818: A fork of VBA-M with libretro integration
 games-emulation/retroarch 1.7.7: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20190817: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20190817: RetroArch joypad autoconfig files
