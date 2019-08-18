@@ -3,18 +3,18 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/nestopia"
-LIBRETRO_COMMIT_SHA="e7b2f6428f3ea80c33b3c9923204f6c2ae4be8ab"
+LIBRETRO_REPO_NAME="libretro/vbam-libretro"
+LIBRETRO_COMMIT_SHA="6bdd6d1b22e40cfe715f05bc6653936eae40658f"
 
 inherit libretro-core
 
-DESCRIPTION="Nestopia libretro port"
+DESCRIPTION="A fork of VBA-M with libretro integration"
 
-LICENSE="GPL-2+"
+LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-S="${S}/libretro"
+S="${S}/src/libretro"
 
 src_prepare() {
 	default

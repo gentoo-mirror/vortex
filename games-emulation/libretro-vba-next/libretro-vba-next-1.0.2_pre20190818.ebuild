@@ -3,20 +3,18 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/nestopia"
-LIBRETRO_COMMIT_SHA="e7b2f6428f3ea80c33b3c9923204f6c2ae4be8ab"
+LIBRETRO_REPO_NAME="libretro/vba-next"
+LIBRETRO_COMMIT_SHA="aeef7de644fa1fb8390dacdc725d32ee81bf5554"
 
 inherit libretro-core
 
-DESCRIPTION="Nestopia libretro port"
+DESCRIPTION="Optimized port of VBA-M to Libretro"
 
 LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-S="${S}/libretro"
-
 src_prepare() {
 	default
-	sed -i -e 's/-O2//g' Makefile || die
+	sed -i -e 's/-O2//g' Makefile.libretro || die
 }
