@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile install prepare unpack
-DESCRIPTION=A fork of VBA-M with libretro integration
+DESCRIPTION=Improved mupen64plus libretro core reimplementation
 EAPI=7
-HOMEPAGE=https://github.com/libretro/vbam-libretro
+HOMEPAGE=https://github.com/libretro/mupen64plus-libretro-nx
 IUSE=debug
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 SLOT=0
-SRC_URI=https://github.com/libretro/vbam-libretro/archive/6bdd6d1b22e40cfe715f05bc6653936eae40658f.tar.gz -> libretro-vbam-2.1.3_pre20190818.tar.gz
+SRC_URI=https://github.com/libretro/mupen64plus-libretro-nx/archive/b785150465048fa88f812e23462f318e66af0be0.tar.gz -> libretro-mupen64plus-next-1.0_pre20190819.tar.gz
 _eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	7ba73aee7fe4462b3a745e3645ab92ca	libretro-core	bc10a6a3f09e6b35d0d8ea1644a2b738	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56
-_md5_=d7819be53c67814a951f77ce7500ff00
+_md5_=67443cc7445a697a91fe680f80f2aab5

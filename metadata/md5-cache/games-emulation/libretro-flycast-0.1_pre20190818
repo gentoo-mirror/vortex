@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile install prepare unpack
-DESCRIPTION=Nestopia libretro port
+DESCRIPTION=Multiplatform Sega Dreamcast emulator
 EAPI=7
-HOMEPAGE=https://github.com/libretro/nestopia
+HOMEPAGE=https://github.com/libretro/flycast
 IUSE=debug
 KEYWORDS=~amd64 ~x86
-LICENSE=GPL-2+
+LICENSE=GPL-2
 SLOT=0
-SRC_URI=https://github.com/libretro/nestopia/archive/e7b2f6428f3ea80c33b3c9923204f6c2ae4be8ab.tar.gz -> libretro-nestopia-1.5.0_pre20190817.tar.gz
+SRC_URI=https://github.com/libretro/flycast/archive/39f6cee99bb975de0a7c264f6d9ef4ca642570ba.tar.gz -> libretro-flycast-0.1_pre20190818.tar.gz
 _eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	7ba73aee7fe4462b3a745e3645ab92ca	libretro-core	bc10a6a3f09e6b35d0d8ea1644a2b738	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56
-_md5_=64d22ff140252992e5d91d5ac0917493
+_md5_=3ec9c1fded102464f7684e2b7b8e9017
