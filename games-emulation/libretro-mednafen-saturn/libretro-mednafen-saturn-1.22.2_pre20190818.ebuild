@@ -3,15 +3,13 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/vbam-libretro"
-LIBRETRO_COMMIT_SHA="6bdd6d1b22e40cfe715f05bc6653936eae40658f"
+LIBRETRO_REPO_NAME="libretro/beetle-saturn-libretro"
+LIBRETRO_COMMIT_SHA="35e8cd757fde92dea66a42583961bf3e6deb24b8"
 
 inherit libretro-core
 
-DESCRIPTION="A fork of VBA-M with libretro integration"
+DESCRIPTION="Standalone port of Mednafen Saturn to the libretro API"
 
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
-S="${S}/src/libretro"
