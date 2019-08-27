@@ -9,4 +9,4 @@ LICENSE=MIT
 SLOT=0
 SRC_URI=https://github.com/libretro/SameBoy/archive/fc754112163a2f6157c56092ea6e1fd64500c4cc.tar.gz -> libretro-sameboy-0.12_pre20190818.tar.gz
 _eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	7ba73aee7fe4462b3a745e3645ab92ca	libretro-core	209b59a3aaa7b79139fcd2abae7414a8	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56
-_md5_=33af0e354ee9f5d84fe10b6f472b32d4
+_md5_=ebb694dd5e79a3052168b0d3a1fcdf59
