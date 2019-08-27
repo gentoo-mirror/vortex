@@ -1,11 +1,13 @@
 DEFINED_PHASES=compile install prepare unpack
+DEPEND=virtual/opengl
 DESCRIPTION=Multiplatform Sega Dreamcast emulator
 EAPI=7
 HOMEPAGE=https://github.com/libretro/flycast
 IUSE=debug
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
+RDEPEND=virtual/opengl
 SLOT=0
 SRC_URI=https://github.com/libretro/flycast/archive/39f6cee99bb975de0a7c264f6d9ef4ca642570ba.tar.gz -> libretro-flycast-0.1_pre20190818.tar.gz
-_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	7ba73aee7fe4462b3a745e3645ab92ca	libretro-core	bc10a6a3f09e6b35d0d8ea1644a2b738	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56
-_md5_=3ec9c1fded102464f7684e2b7b8e9017
+_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	7ba73aee7fe4462b3a745e3645ab92ca	libretro-core	209b59a3aaa7b79139fcd2abae7414a8	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56
+_md5_=45eae8514a2deca4c5b09dc74088e971
