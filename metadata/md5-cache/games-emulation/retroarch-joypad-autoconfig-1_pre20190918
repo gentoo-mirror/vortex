@@ -1,0 +1,10 @@
+DEFINED_PHASES=prepare unpack
+DESCRIPTION=RetroArch joypad autoconfig files
+EAPI=7
+HOMEPAGE=https://github.com/libretro/retroarch-joypad-autoconfig
+KEYWORDS=~amd64 ~x86
+LICENSE=CC-BY-4.0
+SLOT=0
+SRC_URI=https://github.com/libretro/retroarch-joypad-autoconfig/archive/36cec35694686129aaf908545d1afeed5f89a0bb.tar.gz -> retroarch-joypad-autoconfig-1_pre20190918.tar.gz
+_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_md5_=e5a2fa7c919335a02ec71b2dbf1709a7

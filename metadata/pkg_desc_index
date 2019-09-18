@@ -19,23 +19,23 @@ dev-util/lineageos-devel-meta 14.1-r1 15.1: Meta package providing LineageOS bui
 games-emulation/libretro-bsnes 094_pre20190817: Libretro fork of bsnes
 games-emulation/libretro-common-overlays 1_pre20190817: Collection of overlay files for use with RetroArch
 games-emulation/libretro-common-shaders 1_pre20190817: Collection of commonly used Cg shaders
-games-emulation/libretro-database 1_pre20190817: Cheatcode files, content data files and etc. stuff for RetroArch
+games-emulation/libretro-database 1_pre20190817 1_pre20190918: Cheatcode files, content data files and etc. stuff for RetroArch
 games-emulation/libretro-desmume 0_pre20190819: Port of Nintendo DS emulator DeSmuME to libretro
 games-emulation/libretro-flycast 0.1_pre20190818: Multiplatform Sega Dreamcast emulator
 games-emulation/libretro-genesis-plus-gx 1.7.5_pre20190817: An enhanced port of Genesis Plus - accurate & portable Sega 8/16 bit emulator
 games-emulation/libretro-glsl-shaders 1_pre20190817: Glsl shaders converted by hand from libretro's glsl-shaders repo
-games-emulation/libretro-info 1_pre20190817: Libretro info files required for libretro cores
+games-emulation/libretro-info 1_pre20190817 1_pre20190918: Libretro info files required for libretro cores
 games-emulation/libretro-mednafen-pcfx 0.9.36.5_pre20190819: Standalone port of Mednafen PCFX to libretro
 games-emulation/libretro-mednafen-saturn 1.22.2_pre20190818: Standalone port of Mednafen Saturn to the libretro API
 games-emulation/libretro-mgba 0.8_pre20190818: mGBA Game Boy Advance Emulator
 games-emulation/libretro-mupen64plus-next 1.0_pre20190819: Improved mupen64plus libretro core reimplementation
 games-emulation/libretro-nestopia 1.5.0_pre20190817: Nestopia libretro port
 games-emulation/libretro-sameboy 0.12_pre20190818: Gameboy and Gameboy Color emulator written in C
-games-emulation/libretro-slang-shaders 1_pre20190817: Vulkan GLSL RetroArch shaders
+games-emulation/libretro-slang-shaders 1_pre20190817 1_pre20190918: Vulkan GLSL RetroArch shaders
 games-emulation/libretro-vbam 2.1.3_pre20190818: A fork of VBA-M with libretro integration
-games-emulation/retroarch 1.7.7: Frontend for emulators, game engines and media players
-games-emulation/retroarch-assets 1_pre20190817: Assets needed for RetroArch. Also contains the official branding.
-games-emulation/retroarch-joypad-autoconfig 1_pre20190817: RetroArch joypad autoconfig files
+games-emulation/retroarch 1.7.7 1.7.8.4: Frontend for emulators, game engines and media players
+games-emulation/retroarch-assets 1_pre20190817 1_pre20190918: Assets needed for RetroArch. Also contains the official branding.
+games-emulation/retroarch-joypad-autoconfig 1_pre20190817 1_pre20190918: RetroArch joypad autoconfig files
 games-strategy/s25rttr 0.8.1.9374 9999-r2: Open Source remake of The Settlers II game (needs original game files)
 games-strategy/vcmi 0.99 9999: VCMI is work-in-progress attempt to recreate engine for Heroes III.
 net-firewall/firewalld 0.6.4: A firewall daemon with D-BUS interface providing a dynamic firewall

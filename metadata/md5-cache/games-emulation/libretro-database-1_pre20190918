@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile unpack
+DESCRIPTION=Cheatcode files, content data files and etc. stuff for RetroArch
+EAPI=7
+HOMEPAGE=https://github.com/libretro/libretro-database
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+SLOT=0
+SRC_URI=https://github.com/libretro/libretro-database/archive/5cc04d2874c79a44a50722e997776f8e15fee81e.tar.gz -> libretro-database-1_pre20190918.tar.gz
+_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_md5_=f1e7472b6d7820b6701067625ec29cef
