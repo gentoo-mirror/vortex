@@ -9,4 +9,4 @@ RDEPEND=materialui? ( !!<games-emulation/retroarch-1.7.8 ) ozone? ( !!<games-emu
 SLOT=0
 SRC_URI=https://github.com/libretro/retroarch-assets/archive/ffffb2cf4dc5586de41e4e2ae2ca7533c472178e.tar.gz -> retroarch-assets-1_pre20190918.tar.gz
 _eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
-_md5_=58d623d739ff3b09a046a45afcbf9ae6
+_md5_=bf8dbba0e9bd8474669bff2e4a4bb4ae
