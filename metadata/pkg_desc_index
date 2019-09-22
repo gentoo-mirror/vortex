@@ -25,8 +25,8 @@ games-emulation/retroarch 1.7.7 1.7.8.4: Frontend for emulators, game engines an
 games-emulation/retroarch-assets 1_pre20190817 1_pre20190918: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20190817 1_pre20190918 1_pre20190920: RetroArch joypad autoconfig files
 games-strategy/s25rttr 0.9.0_pre20190919: Open Source remake of The Settlers II game (needs original game files)
-games-strategy/vcmi 0.99 9999: VCMI is work-in-progress attempt to recreate engine for Heroes III.
+games-strategy/vcmi 0.99-r1: VCMI is work-in-progress attempt to recreate engine for Heroes III.
 net-firewall/firewalld 0.6.4: A firewall daemon with D-BUS interface providing a dynamic firewall
 sys-devel/rgbds 0.3.8: Rednex Game Boy Development System
-sys-kernel/ddcci-driver-linux 0.3.2: Detects DDC/CI devices on DDC I2C busses and creates corresponding devices.
+sys-kernel/ddcci-driver-linux 0.3.2 0.3.4_pre20190922: Detects DDC/CI devices on DDC I2C busses and creates corresponding devices.
 sys-kernel/vortex-build 4: Simple Linux kernel build scripts
