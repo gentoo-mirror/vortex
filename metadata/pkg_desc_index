@@ -21,7 +21,8 @@ games-emulation/libretro-picodrive 1.92_pre20190901 1.92_pre20190920: Fast MegaD
 games-emulation/libretro-sameboy 0.12_pre20190818: Gameboy and Gameboy Color emulator written in C
 games-emulation/libretro-slang-shaders 1_pre20190817 1_pre20190918: Vulkan GLSL RetroArch shaders
 games-emulation/libretro-vbam 2.1.3_pre20190818: A fork of VBA-M with libretro integration
-games-emulation/retroarch 1.7.7 1.7.8.4: Frontend for emulators, game engines and media players
+games-emulation/libretro-yabause 0.9.15_pre20190926: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators)
+games-emulation/retroarch 1.7.8.4: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20190817 1_pre20190918: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20190817 1_pre20190918 1_pre20190920: RetroArch joypad autoconfig files
 games-strategy/s25rttr 0.9.0_pre20190919: Open Source remake of The Settlers II game (needs original game files)
