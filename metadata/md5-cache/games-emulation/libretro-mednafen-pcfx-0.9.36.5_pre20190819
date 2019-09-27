@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 SLOT=0
 SRC_URI=https://github.com/libretro/beetle-pcfx-libretro/archive/41c76e6ddaf7e0a622408da26377ee9ba92f3785.tar.gz -> libretro-mednafen-pcfx-0.9.36.5_pre20190819.tar.gz
-_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	7ba73aee7fe4462b3a745e3645ab92ca	libretro-core	209b59a3aaa7b79139fcd2abae7414a8	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a
+_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	1b4b0d1d972613ecfb7af4c5c53f2051	libretro-core	209b59a3aaa7b79139fcd2abae7414a8	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a
 _md5_=2e2a83c65325906202ca8216c2f14be8
