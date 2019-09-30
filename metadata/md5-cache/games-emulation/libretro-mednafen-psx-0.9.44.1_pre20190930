@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=dev-libs/libbsd x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libXext x11-libs/libxcb opengl? ( virtual/opengl ) vulkan? ( media-libs/vulkan-loader ) vulkan? ( dev-util/vulkan-headers )
+DESCRIPTION=Standalone port/fork of Mednafen PSX to the Libretro API
+EAPI=7
+HOMEPAGE=https://github.com/libretro/beetle-psx-libretro
+IUSE=opengl vulkan debug
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libbsd x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libXext x11-libs/libxcb opengl? ( virtual/opengl ) vulkan? ( media-libs/vulkan-loader )
+SLOT=0
+SRC_URI=https://github.com/libretro/beetle-psx-libretro/archive/f55db8655408104a6e20af667657423f08566c85.tar.gz -> libretro-mednafen-psx-0.9.44.1_pre20190930.tar.gz
+_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	8a43b9830f1e64a7a5fc0a276afa0275	libretro-core	209b59a3aaa7b79139fcd2abae7414a8	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a
+_md5_=f5d78646aae3b5872de1745cabb0963b
