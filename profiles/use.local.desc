@@ -43,6 +43,10 @@ games-emulation/retroarch:xmb - Enable XMB menu
 games-emulation/retroarch:xrandr - Enable Xrandr support
 games-emulation/retroarch:xv - Enable XVideo support
 games-emulation/retroarch:zlib - Enable zlib support (ZIP extract, PNG decoding/encoding)
+games-emulation/retroarch-assets:materialui - Install assets for MaterialUI menu
+games-emulation/retroarch-assets:ozone - Install assets for Ozone menu
+games-emulation/retroarch-assets:rgui - Install assets for RGUI menu
+games-emulation/retroarch-assets:xmb - Install assets for XMB menu
 games-strategy/vcmi:editor - Enable compilation of map editor
 games-strategy/vcmi:erm - Enable compilation of ERM scripting module
 games-strategy/vcmi:launcher - Enable compilation of launcher

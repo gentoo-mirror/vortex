@@ -1,0 +1,12 @@
+DEFINED_PHASES=prepare unpack
+DESCRIPTION=Assets needed for RetroArch. Also contains the official branding.
+EAPI=7
+HOMEPAGE=https://github.com/libretro/retroarch-assets
+IUSE=materialui ozone rgui xmb
+KEYWORDS=~amd64 ~x86
+LICENSE=CC-BY-4.0
+RDEPEND=materialui? ( !!<games-emulation/retroarch-1.7.8 ) ozone? ( !!<games-emulation/retroarch-1.7.8 ) rgui? ( !!<games-emulation/retroarch-1.7.8 ) xmb? ( !!<games-emulation/retroarch-1.7.8 )
+SLOT=0
+SRC_URI=https://github.com/libretro/retroarch-assets/archive/2a8bef8b99b8456e91dd1343fe912578f0acae74.tar.gz -> retroarch-assets-1_pre20191006.tar.gz
+_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_md5_=1cd3dbd4a75e7deb9ee79180fccbeda1

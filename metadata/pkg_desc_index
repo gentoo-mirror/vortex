@@ -11,7 +11,7 @@ games-emulation/libretro-desmume 0_pre20190819 0_pre20190920: Port of Nintendo D
 games-emulation/libretro-flycast 0.1_pre20190920 0.1_pre20190930: Multiplatform Sega Dreamcast emulator
 games-emulation/libretro-genesis-plus-gx 1.7.5_pre20190817 1.7.5_pre20190920: An enhanced port of Genesis Plus - accurate & portable Sega 8/16 bit emulator
 games-emulation/libretro-glsl-shaders 1_pre20190920 1_pre20190930: Glsl shaders converted by hand from libretro's glsl-shaders repo
-games-emulation/libretro-info 1_pre20190920 1_pre20190930: Libretro info files required for libretro cores
+games-emulation/libretro-info 1_pre20190920 1_pre20190930 1_pre20191006: Libretro info files required for libretro cores
 games-emulation/libretro-mednafen-pcfx 0.9.36.5_pre20190819 0.9.36.5_pre20190920: Standalone port of Mednafen PCFX to libretro
 games-emulation/libretro-mednafen-psx 0.9.44.1_pre20190926 0.9.44.1_pre20190930: Standalone port/fork of Mednafen PSX to the Libretro API
 games-emulation/libretro-mednafen-saturn 1.22.2_pre20190818 1.22.2_pre20190920: Standalone port of Mednafen Saturn to the libretro API
@@ -24,9 +24,9 @@ games-emulation/libretro-slang-shaders 1_pre20190918 1_pre20190930: Vulkan GLSL 
 games-emulation/libretro-vbam 2.1.3_pre20190818: A fork of VBA-M with libretro integration
 games-emulation/libretro-yabause 0.9.15_pre20190926: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators)
 games-emulation/pcsxr 1.9.95_pre20190930: PCSX-Reloaded: a fork of PCSX, the discontinued Playstation emulator
-games-emulation/retroarch 1.7.8.4: Frontend for emulators, game engines and media players
-games-emulation/retroarch-assets 1_pre20190817 1_pre20190918: Assets needed for RetroArch. Also contains the official branding.
-games-emulation/retroarch-joypad-autoconfig 1_pre20190920 1_pre20190930: RetroArch joypad autoconfig files
+games-emulation/retroarch 1.7.8.4 1.7.9: Frontend for emulators, game engines and media players
+games-emulation/retroarch-assets 1_pre20190817 1_pre20190918 1_pre20191006: Assets needed for RetroArch. Also contains the official branding.
+games-emulation/retroarch-joypad-autoconfig 1_pre20190920 1_pre20190930 1_pre20191006: RetroArch joypad autoconfig files
 games-strategy/s25rttr 0.9.0_pre20190919: Open Source remake of The Settlers II game (needs original game files)
 games-strategy/vcmi 0.99-r1: VCMI is work-in-progress attempt to recreate engine for Heroes III.
 net-firewall/firewalld 0.6.4: A firewall daemon with D-BUS interface providing a dynamic firewall
