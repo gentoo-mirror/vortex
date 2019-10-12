@@ -7,4 +7,4 @@ LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/libretro/common-overlays/archive/4d700116edf178452831f99a5173f88559f1b8ec.tar.gz -> libretro-common-overlays-1_pre20190930.tar.gz
 _eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
-_md5_=2b42705fcb13564ec20f4dacb2f82ed1
+_md5_=e9c30032fc8c8ef18e03b3457592ae9b

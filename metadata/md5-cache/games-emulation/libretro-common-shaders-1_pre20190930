@@ -7,4 +7,4 @@ LICENSE=MIT
 SLOT=0
 SRC_URI=https://github.com/libretro/common-shaders/archive/54edaeb7f056023c72eb41eee1c7611d2d2b9357.tar.gz -> libretro-common-shaders-1_pre20190930.tar.gz
 _eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
-_md5_=1954a47a1f5454f8df00aeba69616253
+_md5_=bc76a2c1d802589608bb7d3068008a69

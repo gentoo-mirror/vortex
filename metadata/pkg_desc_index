@@ -18,7 +18,7 @@ games-emulation/libretro-info 1_pre20190920 1_pre20190930 1_pre20191006: Libretr
 games-emulation/libretro-mednafen-pcfx 0.9.36.5_pre20190819 0.9.36.5_pre20190920: Standalone port of Mednafen PCFX to libretro
 games-emulation/libretro-mednafen-psx 0.9.44.1_pre20190926 0.9.44.1_pre20190930: Standalone port/fork of Mednafen PSX to the Libretro API
 games-emulation/libretro-mednafen-saturn 1.22.2_pre20190818 1.22.2_pre20190920: Standalone port of Mednafen Saturn to the libretro API
-games-emulation/libretro-mgba 0.8_pre20190818 0.8_pre20190920: mGBA Game Boy Advance Emulator
+games-emulation/libretro-mgba 0.8_pre20190920: mGBA Game Boy Advance Emulator
 games-emulation/libretro-mupen64plus-next 1.0_pre20190819 1.0_pre20190920: Improved mupen64plus libretro core reimplementation
 games-emulation/libretro-nestopia 1.5.0_pre20190920 1.5.0_pre20190930: Nestopia libretro port
 games-emulation/libretro-picodrive 1.92_pre20190901 1.92_pre20190920: Fast MegaDrive/MegaCD/32X emulator

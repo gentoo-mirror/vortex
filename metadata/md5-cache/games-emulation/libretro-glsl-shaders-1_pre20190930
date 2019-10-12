@@ -7,4 +7,4 @@ LICENSE=MIT
 SLOT=0
 SRC_URI=https://github.com/libretro/glsl-shaders/archive/09e2942efbab2f51b60ff0b93b7761b0b0570910.tar.gz -> libretro-glsl-shaders-1_pre20190930.tar.gz
 _eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
-_md5_=524115f58ef81fabf88cc3359e0ad69c
+_md5_=11eb3f6d3315212bb4fa8689733b3b42
