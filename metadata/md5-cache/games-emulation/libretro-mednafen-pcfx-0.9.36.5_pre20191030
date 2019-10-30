@@ -1,13 +1,11 @@
 DEFINED_PHASES=compile install prepare unpack
-DEPEND=virtual/opengl
-DESCRIPTION=Multiplatform Sega Dreamcast emulator
+DESCRIPTION=Standalone port of Mednafen PCFX to libretro
 EAPI=7
-HOMEPAGE=https://github.com/libretro/flycast
+HOMEPAGE=https://github.com/libretro/beetle-pcfx-libretro
 IUSE=debug
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=virtual/opengl
 SLOT=0
-SRC_URI=https://github.com/libretro/flycast/archive/9ca2c4072f9b5efd6bbbd6ada74eb27c74c89abb.tar.gz -> libretro-flycast-0.1_pre20190920.tar.gz
+SRC_URI=https://github.com/libretro/beetle-pcfx-libretro/archive/7e9a586d75468098cba25f604f545a4162c2f376.tar.gz -> libretro-mednafen-pcfx-0.9.36.5_pre20191030.tar.gz
 _eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	8a43b9830f1e64a7a5fc0a276afa0275	libretro-core	209b59a3aaa7b79139fcd2abae7414a8	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a
-_md5_=cf26280f3b07c7dfc48c47f00bc9fb2e
+_md5_=e6f26639f08aca26b3525fd6937f621f
