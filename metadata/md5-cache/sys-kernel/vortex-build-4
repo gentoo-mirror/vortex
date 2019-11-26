@@ -6,5 +6,5 @@ KEYWORDS=amd64 x86
 LICENSE=GPL-3
 RDEPEND=app-admin/eselect app-arch/gzip sys-apps/coreutils sys-apps/gentoo-functions sys-apps/grep sys-apps/portage sys-apps/util-linux virtual/awk
 SLOT=0
-_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5
 _md5_=c6865c2251ccda8ee11becf6817f62f6
