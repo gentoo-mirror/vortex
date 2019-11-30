@@ -1,12 +1,11 @@
 DEFINED_PHASES=compile install prepare unpack
-DEPEND=sys-devel/rgbds
-DESCRIPTION=Gameboy and Gameboy Color emulator written in C
+DESCRIPTION=Nestopia libretro port
 EAPI=7
-HOMEPAGE=https://github.com/libretro/SameBoy
+HOMEPAGE=https://github.com/libretro/nestopia
 IUSE=debug
 KEYWORDS=~amd64 ~x86
-LICENSE=MIT
+LICENSE=GPL-2+
 SLOT=0
-SRC_URI=https://github.com/libretro/SameBoy/archive/fc754112163a2f6157c56092ea6e1fd64500c4cc.tar.gz -> libretro-sameboy-0.12_pre20190818.tar.gz
+SRC_URI=https://github.com/libretro/nestopia/archive/3aab0a3db12eab4653874928a1926703cc0ee845.tar.gz -> libretro-nestopia-1.5.0_pre20191130.tar.gz
 _eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	8a43b9830f1e64a7a5fc0a276afa0275	libretro-core	209b59a3aaa7b79139fcd2abae7414a8	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=8f0b9bfbb8d4635b8ad991001f9e8c22
+_md5_=ef9aa1d69cca78cdb016af5876773b32
