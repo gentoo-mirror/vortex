@@ -8,4 +8,4 @@ LICENSE=CC-BY-4.0
 SLOT=0
 SRC_URI=https://github.com/libretro/retroarch-assets/archive/c2bbf234195bbad91c827337a2fb2b5bc727407b.tar.gz -> retroarch-assets-1_pre20191130.tar.gz
 _eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
-_md5_=2e563af69cda9f1fff40f179ad4abf07
+_md5_=6ea3e0887bf45d31b3f443226ce05188
