@@ -36,3 +36,4 @@ net-firewall/firewalld 0.6.4: A firewall daemon with D-BUS interface providing a
 sys-devel/rgbds 0.3.8: Rednex Game Boy Development System
 sys-kernel/ddcci-driver-linux 0.3.2 0.3.4_pre20190922: Detects DDC/CI devices on DDC I2C busses and creates corresponding devices.
 sys-kernel/vortex-build 4: Simple Linux kernel build scripts
+sys-kernel/xpadneo 0.6.0_pre20200101: Advanced Linux Driver for Xbox One Wireless Controller (shipped with Xbox One S)
