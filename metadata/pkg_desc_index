@@ -1,6 +1,6 @@
 app-emulation/openshift-cli 3.11.0-r1 4.1.0: OpenShift Command-Line Interface
 app-portage/vortex-aliases 1: Simple aliases for use with portage
-dev-util/aosp-devel-meta 7-r1 8: Meta package providing AOSP build environment
+dev-util/aosp-devel-meta 7-r1 8 9: Meta package providing AOSP build environment
 dev-util/dex2jar 0.0.9.15 2.0: Tools to work with android .dex and java .class files
 dev-util/distro-info 0.22: Provides information about the Debian distributions' releases
 dev-util/distro-info-data 0.42: Information about the Debian distributions' releases (data files)

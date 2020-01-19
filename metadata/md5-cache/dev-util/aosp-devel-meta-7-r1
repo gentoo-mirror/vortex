@@ -2,8 +2,8 @@ DEFINED_PHASES=-
 DESCRIPTION=Meta package providing AOSP build environment
 EAPI=6
 HOMEPAGE=https://source.android.com/source/initializing
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~x86
 LICENSE=metapackage
-RDEPEND=app-crypt/gnupg app-arch/zip[-natspec] app-arch/unzip >=dev-java/icedtea-3.4.0:8 dev-libs/libxslt dev-libs/libxml2 dev-util/android-tools dev-util/ccache dev-util/gperf dev-vcs/git media-libs/libsdl media-libs/mesa net-misc/curl net-misc/rsync sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/gcc[cxx] sys-libs/ncurses:5[abi_x86_32] sys-libs/readline[abi_x86_32] sys-libs/zlib[abi_x86_32] sys-process/schedtool sys-fs/squashfs-tools x11-base/xorg-proto x11-libs/libX11 x11-libs/wxGTK:3.0
+RDEPEND=app-crypt/gnupg app-arch/zip[-natspec] app-arch/unzip >=dev-java/icedtea-3.4.0:8 dev-libs/libxslt dev-libs/libxml2 dev-util/android-tools dev-util/ccache dev-util/gperf dev-vcs/git media-libs/libsdl media-libs/mesa net-misc/curl net-misc/rsync sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/gcc[cxx] sys-libs/ncurses-compat:5=[abi_x86_32,tinfo] sys-libs/readline[abi_x86_32] sys-libs/zlib[abi_x86_32] sys-process/schedtool sys-fs/squashfs-tools x11-base/xorg-proto x11-libs/libX11 x11-libs/wxGTK:3.0
 SLOT=0
-_md5_=8f067e0545f03cd486332153b3125b71
+_md5_=355cc32facfcb5a280ca525808d9782c
