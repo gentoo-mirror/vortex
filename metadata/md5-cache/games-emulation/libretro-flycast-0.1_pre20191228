@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=virtual/opengl
 SLOT=0
 SRC_URI=https://github.com/libretro/flycast/archive/60ed83a34ec018f6025c19cccb3b268ed8434b78.tar.gz -> libretro-flycast-0.1_pre20191228.tar.gz
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	dc34234e8c43343da45853da22dcf14b	libretro-core	209b59a3aaa7b79139fcd2abae7414a8	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	3719195b17f75382c225c2155e81198c	libretro-core	209b59a3aaa7b79139fcd2abae7414a8	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=de1d22c1c27af73f4a6e0b003ea9ca71
