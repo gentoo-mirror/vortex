@@ -31,7 +31,7 @@ games-emulation/pcsxr 1.9.95_pre20190930: PCSX-Reloaded: a fork of PCSX, the dis
 games-emulation/retroarch 1.8.2 1.8.4: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20191030 1_pre20191130: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20191228 1_pre20200202: RetroArch joypad autoconfig files
-games-strategy/s25rttr 0.9.0_pre20191013 0.9.0_pre20191130: Open Source remake of The Settlers II game (needs original game files)
+games-strategy/s25rttr 0.9.0_pre20191130 0.9.0_pre20200309: Open Source remake of The Settlers II game (needs original game files)
 games-strategy/vcmi 0.99-r1: VCMI is work-in-progress attempt to recreate engine for Heroes III.
 net-firewall/firewalld 0.6.4: A firewall daemon with D-BUS interface providing a dynamic firewall
 sys-devel/rgbds 0.3.8: Rednex Game Boy Development System
