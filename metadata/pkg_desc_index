@@ -25,6 +25,7 @@ games-emulation/libretro-nestopia 1.5.0_pre20191228 1.5.0_pre20200202: Nestopia 
 games-emulation/libretro-pcsx-rearmed 22_p20200202: ARM optimized PCSX fork
 games-emulation/libretro-picodrive 1.92_pre20200202 1.92_pre20200314: Fast MegaDrive/MegaCD/32X emulator
 games-emulation/libretro-sameboy 0.12_pre20191030 0.12_pre20191130: Gameboy and Gameboy Color emulator written in C
+games-emulation/libretro-scummvm 2.1.1_p20200314: Interpreter for point-and-click adventure games as a libretro core.
 games-emulation/libretro-slang-shaders 1_pre20200202 1_pre20200314: Vulkan GLSL RetroArch shaders
 games-emulation/libretro-vbam 2.1.3_pre20200202 2.1.3_pre20200314: A fork of VBA-M with libretro integration
 games-emulation/libretro-yabause 0.9.15_pre20200202 0.9.15_pre20200314: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators)
