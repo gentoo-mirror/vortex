@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=XMAME
 SLOT=0
 SRC_URI=https://github.com/libretro/picodrive/archive/8cbbdceaf4e080949edcdda2fe9e52bd7f2a3f8a.tar.gz -> libretro-picodrive-1.92_pre20200202.tar.gz
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	53d57b0f8b8c19ff72cb341a42b891ed	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	74b1bca587791941e9df7b808a01575b	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=8e1ddb31fd8c388f15d30126cd0ba86f
