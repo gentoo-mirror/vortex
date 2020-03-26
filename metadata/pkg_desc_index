@@ -1,5 +1,6 @@
 app-emulation/openshift-cli 3.11.0-r1 4.1.0: OpenShift Command-Line Interface
 app-portage/vortex-aliases 1: Simple aliases for use with portage
+dev-libs/dynarmic 1_p20180826: An ARM dynamic recompiler
 dev-libs/fuzzylite 6.0: A fuzzy logic control library in C++
 dev-util/aosp-devel-meta 7-r1 8 9: Meta package providing AOSP build environment
 dev-util/dex2jar 0.0.9.15 2.0: Tools to work with android .dex and java .class files
@@ -7,7 +8,9 @@ dev-util/distro-info 0.22: Provides information about the Debian distributions' 
 dev-util/distro-info-data 0.42: Information about the Debian distributions' releases (data files)
 dev-util/dput-ng 1.28: Next generation Debian package upload tool
 dev-util/lineageos-devel-meta 14.1-r1 15.1: Meta package providing LineageOS build environment
+dev-util/nihstro 0_p20200324: 3DS shader assembler and disassembler
 games-emulation/libretro-bsnes 094_pre20190817 094_pre20190920: Libretro fork of bsnes
+games-emulation/libretro-citra 0_p20200322: Multiplatform Sega Dreamcast emulator
 games-emulation/libretro-common-overlays 1_pre20200202 1_pre20200314: Collection of overlay files for use with RetroArch
 games-emulation/libretro-common-shaders 1_pre20190930 1_pre20200202: Collection of commonly used Cg shaders
 games-emulation/libretro-database 1_pre20200202 1_pre20200314: Cheatcode files, content data files and etc. stuff for RetroArch
