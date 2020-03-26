@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=XMAME
 SLOT=0
 SRC_URI=https://github.com/libretro/Genesis-Plus-GX/archive/92b35285bb07b7ab82f0d2aae12a7ab8f17107e7.tar.gz -> libretro-genesis-plus-gx-1.7.5_pre20200202.tar.gz
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	74b1bca587791941e9df7b808a01575b	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	42d97132740235ad4310cd60beb1992e	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=b81f1ae2165bc43768eaa124dd1a1f2e
