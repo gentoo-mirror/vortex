@@ -50,5 +50,4 @@ games-emulation/retroarch-assets:xmb - Install assets for XMB menu
 games-strategy/vcmi:editor - Enable compilation of map editor
 games-strategy/vcmi:erm - Enable compilation of ERM scripting module
 games-strategy/vcmi:launcher - Enable compilation of launcher
-net-firewall/firewalld:gui - Builds and installs GUI configurator and GTK+ applet
 sys-kernel/ddcci-driver-linux:nvidia - NVidia proprietary driver support
