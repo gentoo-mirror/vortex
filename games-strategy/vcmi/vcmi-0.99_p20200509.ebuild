@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-COMMIT_SHA="dca5d86e7a6d18d2ddac7258f98a0ce08c691a6e"
+COMMIT_SHA="8871368c5b405d9840c49e61b33a72feeabc19f7"
 
 inherit cmake-utils vcs-snapshot xdg
 
