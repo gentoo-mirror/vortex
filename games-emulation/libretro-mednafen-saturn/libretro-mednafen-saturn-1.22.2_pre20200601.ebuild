@@ -3,12 +3,12 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/beetle-pcfx-libretro"
-LIBRETRO_COMMIT_SHA="7e9a586d75468098cba25f604f545a4162c2f376"
+LIBRETRO_REPO_NAME="libretro/beetle-saturn-libretro"
+LIBRETRO_COMMIT_SHA="7ba4ff3aed62a60e99e0758a92dbb1924c63d0fa"
 
 inherit libretro-core
 
-DESCRIPTION="Standalone port of Mednafen PCFX to libretro"
+DESCRIPTION="Standalone port of Mednafen Saturn to the libretro API"
 
 LICENSE="GPL-2"
 SLOT="0"
