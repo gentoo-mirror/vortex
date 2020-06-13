@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 SLOT=0
 SRC_URI=https://github.com/libretro/beetle-saturn-libretro/archive/7ba4ff3aed62a60e99e0758a92dbb1924c63d0fa.tar.gz -> libretro-mednafen-saturn-1.22.2_pre20200601.tar.gz
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	0914eab919f4f11dd9e0407b92af4726	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	ba693a7065ee4edc78b3ea02a015bcad	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97
 _md5_=756627acf15fba009f9537c92a2675fb

@@ -11,5 +11,5 @@ RDEPEND=systemd? ( app-misc/ddcutil ) kernel_linux? ( virtual/modutils )
 REQUIRED_USE=nvidia? ( systemd )
 SLOT=0
 SRC_URI=https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux/-/archive/3fd9a591c9ad7ac0bc045ad059c7ea9c19073fcb.tar.gz -> ddcci-driver-linux-0.3.4_pre20190922.tar.gz
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	linux-info	5d5cc2632ef6b3c817019fa4fa3d8508	linux-mod	9991808b521b5a8c569c9c4ccf8893f6	multilib	0914eab919f4f11dd9e0407b92af4726	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97	udev	452708c3f55cf6e918b045adb949a9e6	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	linux-info	5d5cc2632ef6b3c817019fa4fa3d8508	linux-mod	9991808b521b5a8c569c9c4ccf8893f6	multilib	ba693a7065ee4edc78b3ea02a015bcad	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97	udev	452708c3f55cf6e918b045adb949a9e6	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=3f65d07b8648ecb16cbcced99cfd7bdc
