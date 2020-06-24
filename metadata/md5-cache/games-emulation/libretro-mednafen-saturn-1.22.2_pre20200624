@@ -1,13 +1,11 @@
 DEFINED_PHASES=compile install prepare unpack
-DEPEND=virtual/opengl
-DESCRIPTION=Multiplatform Sega Dreamcast emulator
+DESCRIPTION=Standalone port of Mednafen Saturn to the libretro API
 EAPI=7
-HOMEPAGE=https://github.com/libretro/flycast
+HOMEPAGE=https://github.com/libretro/beetle-saturn-libretro
 IUSE=debug
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=virtual/opengl
 SLOT=0
-SRC_URI=https://github.com/libretro/flycast/archive/8288faeb4cefabc5a65a8334322dfa7cc5fdf81f.tar.gz -> libretro-flycast-0.1_pre20200509.tar.gz
+SRC_URI=https://github.com/libretro/beetle-saturn-libretro/archive/1830a44f78369f512f3457117ca0a4f04ce5bbff.tar.gz -> libretro-mednafen-saturn-1.22.2_pre20200624.tar.gz
 _eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=443ca496c6f2ebb315f91183fc56fcf8
+_md5_=0eae6ca563dfc6ac51a20a54837cdce3

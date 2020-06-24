@@ -13,32 +13,32 @@ games-emulation/libretro-bsnes 094_pre20190817 094_pre20190920: Libretro fork of
 games-emulation/libretro-citra 0_p20200322: Multiplatform Sega Dreamcast emulator
 games-emulation/libretro-common-overlays 1_pre20200314 1_pre20200509: Collection of overlay files for use with RetroArch
 games-emulation/libretro-common-shaders 1_pre20190930 1_pre20200202: Collection of commonly used Cg shaders
-games-emulation/libretro-database 1_pre20200509 1_pre20200601: Cheatcode files, content data files and etc. stuff for RetroArch
+games-emulation/libretro-database 1_pre20200601 1_pre20200624: Cheatcode files, content data files and etc. stuff for RetroArch
 games-emulation/libretro-desmume 0_pre20190920 0_pre20200601: Port of Nintendo DS emulator DeSmuME to libretro
-games-emulation/libretro-flycast 0.1_pre20200509 0.1_pre20200601: Multiplatform Sega Dreamcast emulator
+games-emulation/libretro-flycast 0.1_pre20200601 0.1_pre20200624: Multiplatform Sega Dreamcast emulator
 games-emulation/libretro-genesis-plus-gx 1.7.5_pre20200202 1.7.5_pre20200314: An enhanced port of Genesis Plus - accurate & portable Sega 8/16 bit emulator
-games-emulation/libretro-glsl-shaders 1_pre20200314 1_pre20200509: Glsl shaders converted by hand from libretro's glsl-shaders repo
-games-emulation/libretro-info 1_pre20200509 1_pre20200601: Libretro info files required for libretro cores
-games-emulation/libretro-mednafen-pcfx 0.9.36.5_pre20200202 0.9.36.5_pre20200601: Standalone port of Mednafen PCFX to libretro
-games-emulation/libretro-mednafen-psx 0.9.44.1_pre20200509 0.9.44.1_pre20200601: Standalone port/fork of Mednafen PSX to the Libretro API
-games-emulation/libretro-mednafen-saturn 1.22.2_pre20200202 1.22.2_pre20200601: Standalone port of Mednafen Saturn to the libretro API
-games-emulation/libretro-mgba 0.8_pre20200509 0.8_pre20200601: mGBA Game Boy Advance Emulator
+games-emulation/libretro-glsl-shaders 1_pre20200509 1_pre20200624: Glsl shaders converted by hand from libretro's glsl-shaders repo
+games-emulation/libretro-info 1_pre20200601 1_pre20200624: Libretro info files required for libretro cores
+games-emulation/libretro-mednafen-pcfx 0.9.36.5_pre20200601 0.9.36.5_pre20200624: Standalone port of Mednafen PCFX to libretro
+games-emulation/libretro-mednafen-psx 0.9.44.1_pre20200601 0.9.44.1_pre20200624: Standalone port/fork of Mednafen PSX to the Libretro API
+games-emulation/libretro-mednafen-saturn 1.22.2_pre20200601 1.22.2_pre20200624: Standalone port of Mednafen Saturn to the libretro API
+games-emulation/libretro-mgba 0.8_pre20200601 0.8_pre20200624: mGBA Game Boy Advance Emulator
 games-emulation/libretro-mupen64plus-next 1.0_pre20200202 1.0_pre20200509: Improved mupen64plus libretro core reimplementation
 games-emulation/libretro-nestopia 1.5.0_pre20200202 1.5.0_pre20200601: Nestopia libretro port
 games-emulation/libretro-pcsx-rearmed 22_p20200202: ARM optimized PCSX fork
-games-emulation/libretro-picodrive 1.92_pre20200314 1.92_pre20200601: Fast MegaDrive/MegaCD/32X emulator
-games-emulation/libretro-sameboy 0.12_pre20191030 0.12_pre20191130: Gameboy and Gameboy Color emulator written in C
+games-emulation/libretro-picodrive 1.92_pre20200601 1.92_pre20200624: Fast MegaDrive/MegaCD/32X emulator
+games-emulation/libretro-sameboy 0.12_pre20191130 0.13.1_pre20200624: Gameboy and Gameboy Color emulator written in C
 games-emulation/libretro-scummvm 2.1.1_p20200314: Interpreter for point-and-click adventure games as a libretro core.
-games-emulation/libretro-slang-shaders 1_pre20200314 1_pre20200509: Vulkan GLSL RetroArch shaders
+games-emulation/libretro-slang-shaders 1_pre20200509 1_pre20200624: Vulkan GLSL RetroArch shaders
 games-emulation/libretro-vbam 2.1.3_pre20200202 2.1.3_pre20200314: A fork of VBA-M with libretro integration
-games-emulation/libretro-yabause 0.9.15_pre20200314 0.9.15_pre20200601: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators)
+games-emulation/libretro-yabause 0.9.15_pre20200601 0.9.15_pre20200624: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators)
 games-emulation/pcsxr 1.9.95_pre20190930: PCSX-Reloaded: a fork of PCSX, the discontinued Playstation emulator
-games-emulation/retroarch 1.8.7 1.8.8: Frontend for emulators, game engines and media players
-games-emulation/retroarch-assets 1_pre20200509 1_pre20200601: Assets needed for RetroArch. Also contains the official branding.
-games-emulation/retroarch-joypad-autoconfig 1_pre20200509 1_pre20200601: RetroArch joypad autoconfig files
+games-emulation/retroarch 1.8.8 1.8.9: Frontend for emulators, game engines and media players
+games-emulation/retroarch-assets 1_pre20200601 1_pre20200624: Assets needed for RetroArch. Also contains the official branding.
+games-emulation/retroarch-joypad-autoconfig 1_pre20200601 1_pre20200624: RetroArch joypad autoconfig files
 games-strategy/s25rttr 0.9.0_pre20191130 0.9.0_pre20200309: Open Source remake of The Settlers II game (needs original game files)
 games-strategy/vcmi 0.99_p20200314 0.99_p20200509: VCMI is work-in-progress attempt to recreate engine for Heroes III.
-sys-devel/rgbds 0.3.8: Rednex Game Boy Development System
+sys-devel/rgbds 0.4.0: Rednex Game Boy Development System
 sys-kernel/ddcci-driver-linux 0.3.2 0.3.4_pre20190922: Detects DDC/CI devices on DDC I2C busses and creates corresponding devices.
 sys-kernel/vortex-build 4: Simple Linux kernel build scripts
 sys-kernel/xpadneo 0.6.0_pre20200101: Advanced Linux Driver for Xbox One Wireless Controller (shipped with Xbox One S)

@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install prepare unpack
-DEPEND=sys-devel/rgbds
+DEPEND=>=sys-devel/rgbds-0.4.0
 DESCRIPTION=Gameboy and Gameboy Color emulator written in C
 EAPI=7
 HOMEPAGE=https://github.com/libretro/SameBoy
@@ -7,6 +7,6 @@ IUSE=debug
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 SLOT=0
-SRC_URI=https://github.com/libretro/SameBoy/archive/3b635244f1cf3e96b9bab93dc42b217fab3de478.tar.gz -> libretro-sameboy-0.12_pre20191030.tar.gz
+SRC_URI=https://github.com/libretro/SameBoy/archive/ef203cf0e5b6dd1e9ee5da47b0827b0ef132fa02.tar.gz -> libretro-sameboy-0.13.1_pre20200624.tar.gz
 _eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=35e7a531977cd51ba6ec67e118a986a4
+_md5_=090440f0df867b23805251415eb327c6
