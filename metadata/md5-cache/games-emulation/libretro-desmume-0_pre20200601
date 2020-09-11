@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=virtual/opengl
 SLOT=0
 SRC_URI=https://github.com/libretro/desmume/archive/6f520c816303a00a777817dc6a1a8d04ced336ea.tar.gz -> libretro-desmume-0_pre20200601.tar.gz
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
 _md5_=1dc0bda6e03937976f0066b2703b9312

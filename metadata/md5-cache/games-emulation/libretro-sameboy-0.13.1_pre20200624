@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 SLOT=0
 SRC_URI=https://github.com/libretro/SameBoy/archive/ef203cf0e5b6dd1e9ee5da47b0827b0ef132fa02.tar.gz -> libretro-sameboy-0.13.1_pre20200624.tar.gz
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
 _md5_=090440f0df867b23805251415eb327c6
