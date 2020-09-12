@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/libbsd x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libXext x11-libs/libxcb opengl? ( virtual/opengl ) vulkan? ( media-libs/vulkan-loader )
 SLOT=0
 SRC_URI=https://github.com/libretro/beetle-psx-libretro/archive/ecdf0c3cff78a7c306ec3f25d8e5e68c70a02be6.tar.gz -> libretro-mednafen-psx-0.9.44.1_pre20200601.tar.gz
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	l10n	8cdd85e169b835d518bc2fd59f780d8e	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wrapper	4251d4c84c25f59094fd557e0063a974
 _md5_=427272789754034e2152d25d2f7a75b0
