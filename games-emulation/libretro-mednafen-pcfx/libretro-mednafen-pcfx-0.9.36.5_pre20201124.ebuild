@@ -3,15 +3,13 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/vbam-libretro"
-LIBRETRO_COMMIT_SHA="7d88e045a2fe44e56b3f84846beec446b4c4b2d9"
+LIBRETRO_REPO_NAME="libretro/beetle-pcfx-libretro"
+LIBRETRO_COMMIT_SHA="008a5ae04beb9bf939663e7e927bd7beca126024"
 
 inherit libretro-core
 
-DESCRIPTION="A fork of VBA-M with libretro integration"
+DESCRIPTION="Standalone port of Mednafen PCFX to libretro"
 
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
-S="${S}/src/libretro"
