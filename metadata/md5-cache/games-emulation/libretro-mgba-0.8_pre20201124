@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile install prepare unpack
-DESCRIPTION=Nestopia libretro port
+DESCRIPTION=mGBA Game Boy Advance Emulator
 EAPI=7
-HOMEPAGE=https://github.com/libretro/nestopia
+HOMEPAGE=https://github.com/libretro/mgba
 IUSE=debug
 KEYWORDS=~amd64 ~x86
-LICENSE=GPL-2+
+LICENSE=MPL-2.0
 SLOT=0
-SRC_URI=https://github.com/libretro/nestopia/archive/70c53f08c0cc92e90d095d6558ab737ce20431ac.tar.gz -> libretro-nestopia-1.5.0_pre20200202.tar.gz
+SRC_URI=https://github.com/libretro/mgba/archive/45eeee1cb210fbb5a18af8f155b3929fdacce4b4.tar.gz -> libretro-mgba-0.8_pre20201124.tar.gz
 _eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	l10n	8cdd85e169b835d518bc2fd59f780d8e	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=63b7a64a16b1cf7a07357e574e4b3c19
+_md5_=0c726007a3e0ee60166e0378430a3f64

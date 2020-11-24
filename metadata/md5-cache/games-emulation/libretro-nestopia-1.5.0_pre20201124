@@ -1,13 +1,11 @@
 DEFINED_PHASES=compile install prepare unpack
-DEPEND=media-libs/libpng:= virtual/opengl dev-lang/nasm
-DESCRIPTION=Improved mupen64plus libretro core reimplementation
+DESCRIPTION=Nestopia libretro port
 EAPI=7
-HOMEPAGE=https://github.com/libretro/mupen64plus-libretro-nx
+HOMEPAGE=https://github.com/libretro/nestopia
 IUSE=debug
 KEYWORDS=~amd64 ~x86
-LICENSE=GPL-2
-RDEPEND=media-libs/libpng:= virtual/opengl
+LICENSE=GPL-2+
 SLOT=0
-SRC_URI=https://github.com/libretro/mupen64plus-libretro-nx/archive/39b555e52bc8821c15f5aa33e366285cd9272630.tar.gz -> libretro-mupen64plus-next-1.0_pre20200202.tar.gz
+SRC_URI=https://github.com/libretro/nestopia/archive/02e7c03f933333bb9ce79b2c0e5ebb936a9536e2.tar.gz -> libretro-nestopia-1.5.0_pre20201124.tar.gz
 _eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	l10n	8cdd85e169b835d518bc2fd59f780d8e	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=d1e7fa3d48055546fd76334a7548120f
+_md5_=e46ee90b346dbbff931b7fbb20803fef

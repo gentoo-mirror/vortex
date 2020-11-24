@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile install prepare unpack
-DESCRIPTION=mGBA Game Boy Advance Emulator
+DESCRIPTION=Standalone port of Mednafen PCFX to libretro
 EAPI=7
-HOMEPAGE=https://github.com/libretro/mgba
+HOMEPAGE=https://github.com/libretro/beetle-pcfx-libretro
 IUSE=debug
 KEYWORDS=~amd64 ~x86
-LICENSE=MPL-2.0
+LICENSE=GPL-2
 SLOT=0
-SRC_URI=https://github.com/libretro/mgba/archive/7ad318f5f683b447db7bd8ef4a7a8f3570e8eca9.tar.gz -> libretro-mgba-0.8_pre20200601.tar.gz
+SRC_URI=https://github.com/libretro/beetle-pcfx-libretro/archive/008a5ae04beb9bf939663e7e927bd7beca126024.tar.gz -> libretro-mednafen-pcfx-0.9.36.5_pre20201124.tar.gz
 _eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	l10n	8cdd85e169b835d518bc2fd59f780d8e	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=ea9e08cd1e1f4c785b823eb5a741f67a
+_md5_=f6e6a83b2a1ce1591389fbb3d4736787

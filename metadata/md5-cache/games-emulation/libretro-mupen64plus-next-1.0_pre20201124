@@ -1,11 +1,13 @@
 DEFINED_PHASES=compile install prepare unpack
-DESCRIPTION=Standalone port of Mednafen PCFX to libretro
+DEPEND=media-libs/libpng:= virtual/opengl dev-lang/nasm
+DESCRIPTION=Improved mupen64plus libretro core reimplementation
 EAPI=7
-HOMEPAGE=https://github.com/libretro/beetle-pcfx-libretro
+HOMEPAGE=https://github.com/libretro/mupen64plus-libretro-nx
 IUSE=debug
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
+RDEPEND=media-libs/libpng:= virtual/opengl
 SLOT=0
-SRC_URI=https://github.com/libretro/beetle-pcfx-libretro/archive/f0d284854a1973196c36590505f70c3404cc37b4.tar.gz -> libretro-mednafen-pcfx-0.9.36.5_pre20200601.tar.gz
+SRC_URI=https://github.com/libretro/mupen64plus-libretro-nx/archive/b71c9db03bd18eb09074e8a886f62226eeca3846.tar.gz -> libretro-mupen64plus-next-1.0_pre20201124.tar.gz
 _eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	l10n	8cdd85e169b835d518bc2fd59f780d8e	libretro-core	cca0138c385d9632ef6d53169a0865fa	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=188aa950f4f29e8a5beff6d037710fe3
+_md5_=1d77236d96a7ca13d26a3b2d390040bd
