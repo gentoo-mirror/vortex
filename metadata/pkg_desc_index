@@ -1,5 +1,6 @@
 app-emulation/openshift-cli 3.11.0-r1 4.1.0: OpenShift Command-Line Interface
 app-portage/vortex-aliases 1: Simple aliases for use with portage
+dev-cpp/curlcpp 1.4: An object-oriented C++ wrapper for cURL tool
 dev-libs/dynarmic 1_p20180826: An ARM dynamic recompiler
 dev-libs/fuzzylite 6.0: A fuzzy logic control library in C++
 dev-util/aosp-devel-meta 7-r1 8 9: Meta package providing AOSP build environment
@@ -37,10 +38,11 @@ games-emulation/retroarch 1.8.9 1.9.0: Frontend for emulators, game engines and 
 games-emulation/retroarch-assets 1_pre20200624 1_pre20201124: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20200624 1_pre20201124: RetroArch joypad autoconfig files
 games-strategy/s25rttr 0.9.0_pre20191130 0.9.0_pre20200309: Open Source remake of The Settlers II game (needs original game files)
-games-strategy/vcmi 0.99_p20200314 0.99_p20200509: VCMI is work-in-progress attempt to recreate engine for Heroes III.
+games-strategy/vcmi 0.99_p20210101: VCMI is work-in-progress attempt to recreate engine for Heroes III.
 net-misc/gnome-remote-desktop 0.1.9: Remote desktop daemon for GNOME using pipewire
 net-wireless/bluetooth-buggy-reconnect 1: CLI tool to automatically reconnect buggy trusted bluetooth devices.
 sys-devel/rgbds 0.4.0: Rednex Game Boy Development System
+sys-fs/marc-fs 0.7.2_pre20201122: FUSE filesystem attempt for Mail.Ru Cloud
 sys-kernel/ddcci-driver-linux 0.3.2 0.3.4_pre20190922: Detects DDC/CI devices on DDC I2C busses and creates corresponding devices.
 sys-kernel/vortex-build 4: Simple Linux kernel build scripts
 sys-kernel/xpadneo 0.6.0_pre20200101: Advanced Linux Driver for Xbox One Wireless Controller (shipped with Xbox One S)
