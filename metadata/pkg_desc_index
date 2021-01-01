@@ -37,7 +37,7 @@ games-emulation/pcsxr 1.9.95_pre20190930: PCSX-Reloaded: a fork of PCSX, the dis
 games-emulation/retroarch 1.8.9 1.9.0: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20200624 1_pre20201124: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20200624 1_pre20201124: RetroArch joypad autoconfig files
-games-strategy/s25rttr 0.9.0_pre20191130 0.9.0_pre20200309: Open Source remake of The Settlers II game (needs original game files)
+games-strategy/s25rttr 0.9.0_pre20210101: Open Source remake of The Settlers II game (needs original game files)
 games-strategy/vcmi 0.99_p20210101: VCMI is work-in-progress attempt to recreate engine for Heroes III.
 net-misc/gnome-remote-desktop 0.1.9: Remote desktop daemon for GNOME using pipewire
 net-wireless/bluetooth-buggy-reconnect 1: CLI tool to automatically reconnect buggy trusted bluetooth devices.
