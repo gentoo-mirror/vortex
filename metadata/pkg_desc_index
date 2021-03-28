@@ -34,7 +34,7 @@ games-emulation/libretro-slang-shaders 1_pre20200624 1_pre20201124: Vulkan GLSL 
 games-emulation/libretro-vbam 2.1.3_pre20200314 2.1.3_pre20201124: A fork of VBA-M with libretro integration
 games-emulation/libretro-yabause 0.9.15_pre20200601 0.9.15_pre20200624: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators)
 games-emulation/pcsxr 1.9.95_pre20190930: PCSX-Reloaded: a fork of PCSX, the discontinued Playstation emulator
-games-emulation/retroarch 1.8.9 1.9.0: Frontend for emulators, game engines and media players
+games-emulation/retroarch 1.9.0-r1: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20200624 1_pre20201124: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20200624 1_pre20201124: RetroArch joypad autoconfig files
 games-strategy/s25rttr 0.9.0_pre20210101: Open Source remake of The Settlers II game (needs original game files)
