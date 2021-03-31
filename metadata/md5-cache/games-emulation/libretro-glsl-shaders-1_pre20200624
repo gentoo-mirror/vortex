@@ -2,6 +2,7 @@ DEFINED_PHASES=unpack
 DESCRIPTION=Glsl shaders converted by hand from libretro's glsl-shaders repo
 EAPI=7
 HOMEPAGE=https://github.com/libretro/glsl-shaders
+INHERIT=vcs-snapshot
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 SLOT=0

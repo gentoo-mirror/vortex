@@ -2,6 +2,7 @@ DEFINED_PHASES=unpack
 DESCRIPTION=Vulkan GLSL RetroArch shaders
 EAPI=7
 HOMEPAGE=https://github.com/libretro/slang-shaders
+INHERIT=vcs-snapshot
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 SLOT=0

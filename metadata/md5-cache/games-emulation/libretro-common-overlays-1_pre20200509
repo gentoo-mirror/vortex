@@ -2,6 +2,7 @@ DEFINED_PHASES=compile install unpack
 DESCRIPTION=Collection of overlay files for use with RetroArch
 EAPI=7
 HOMEPAGE=https://github.com/libretro/common-overlays
+INHERIT=vcs-snapshot
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 SLOT=0

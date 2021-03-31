@@ -2,6 +2,7 @@ DEFINED_PHASES=compile install unpack
 DESCRIPTION=Libretro info files required for libretro cores
 EAPI=7
 HOMEPAGE=https://github.com/libretro/libretro-super
+INHERIT=vcs-snapshot
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 SLOT=0

@@ -2,6 +2,7 @@ DEFINED_PHASES=prepare unpack
 DESCRIPTION=Assets needed for RetroArch. Also contains the official branding.
 EAPI=7
 HOMEPAGE=https://github.com/libretro/retroarch-assets
+INHERIT=vcs-snapshot
 IUSE=materialui ozone rgui xmb
 KEYWORDS=~amd64 ~x86
 LICENSE=CC-BY-4.0

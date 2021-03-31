@@ -2,6 +2,7 @@ DEFINED_PHASES=prepare unpack
 DESCRIPTION=RetroArch joypad autoconfig files
 EAPI=7
 HOMEPAGE=https://github.com/libretro/retroarch-joypad-autoconfig
+INHERIT=vcs-snapshot
 KEYWORDS=~amd64 ~x86
 LICENSE=CC-BY-4.0
 SLOT=0
