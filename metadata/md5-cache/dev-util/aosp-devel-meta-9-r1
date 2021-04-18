@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=Meta package providing AOSP build environment
+EAPI=7
+HOMEPAGE=https://source.android.com/source/initializing
+KEYWORDS=~x86
+LICENSE=metapackage
+RDEPEND=app-crypt/gnupg app-arch/zip[-natspec] app-arch/unzip dev-lang/python:2.7 dev-libs/libxslt dev-libs/libxml2 dev-util/android-tools dev-util/ccache dev-util/gperf dev-vcs/git media-libs/libsdl media-libs/mesa net-misc/curl net-misc/rsync sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/gcc[cxx] sys-libs/ncurses-compat:5=[abi_x86_32,tinfo] sys-libs/readline[abi_x86_32] sys-libs/zlib[abi_x86_32] sys-process/schedtool sys-fs/squashfs-tools x11-base/xorg-proto x11-libs/libX11 x11-libs/wxGTK:3.0
+SLOT=0
+_md5_=5b1f837d929280e6fd5f05dfa65ef2e1
