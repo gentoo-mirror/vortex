@@ -5,9 +5,7 @@ dev-libs/dynarmic 1_p20180826: An ARM dynamic recompiler
 dev-libs/fuzzylite 6.0: A fuzzy logic control library in C++
 dev-util/aosp-devel-meta 7-r1 8 9-r1: Meta package providing AOSP build environment
 dev-util/dex2jar 0.0.9.15 2.0: Tools to work with android .dex and java .class files
-dev-util/distro-info 0.22: Provides information about the Debian distributions' releases
 dev-util/distro-info-data 0.42: Information about the Debian distributions' releases (data files)
-dev-util/dput-ng 1.28: Next generation Debian package upload tool
 dev-util/lineageos-devel-meta 14.1-r1 15.1: Meta package providing LineageOS build environment
 dev-util/nihstro 0_p20200324: 3DS shader assembler and disassembler
 games-emulation/libretro-bsnes 094_pre20190817 094_pre20190920: Libretro fork of bsnes
