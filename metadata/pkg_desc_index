@@ -5,7 +5,6 @@ dev-libs/dynarmic 1_p20180826: An ARM dynamic recompiler
 dev-libs/fuzzylite 6.0: A fuzzy logic control library in C++
 dev-util/aosp-devel-meta 7-r1 8 9-r1: Meta package providing AOSP build environment
 dev-util/dex2jar 0.0.9.15 2.0: Tools to work with android .dex and java .class files
-dev-util/distro-info-data 0.42: Information about the Debian distributions' releases (data files)
 dev-util/lineageos-devel-meta 14.1-r1 15.1: Meta package providing LineageOS build environment
 dev-util/nihstro 0_p20200324: 3DS shader assembler and disassembler
 games-emulation/libretro-bsnes 094_pre20190817 094_pre20190920: Libretro fork of bsnes
@@ -39,7 +38,7 @@ games-strategy/s25rttr 0.9.0_pre20210101: Open Source remake of The Settlers II 
 games-strategy/vcmi 0.99_p20210101: VCMI is work-in-progress attempt to recreate engine for Heroes III.
 net-misc/gnome-remote-desktop 0.1.9: Remote desktop daemon for GNOME using pipewire
 net-news/liferea 1.13.5: News Aggregator for RDF/RSS/CDF/Atom/Echo feeds
-net-wireless/bluetooth-buggy-reconnect 1: CLI tool to automatically reconnect buggy trusted bluetooth devices.
+net-wireless/bluetooth-buggy-reconnect 1-r1: CLI tool to automatically reconnect buggy trusted bluetooth devices.
 sys-devel/rgbds 0.4.0: Rednex Game Boy Development System
 sys-fs/marc-fs 0.7.2_pre20201122: FUSE filesystem attempt for Mail.Ru Cloud
 sys-kernel/ddcci-driver-linux 0.3.2 0.3.4_pre20190922: Detects DDC/CI devices on DDC I2C busses and creates corresponding devices.
