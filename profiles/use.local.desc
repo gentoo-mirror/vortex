@@ -2,6 +2,7 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+games-arcade/lbreakouthd:themes - Install additional themes
 games-emulation/libretro-mednafen-psx:opengl - Build with OpenGL support
 games-emulation/libretro-mednafen-psx:vulkan - Build with Vulkan support
 games-emulation/pcsxr:cdio - Use libcdio for CD support
