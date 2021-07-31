@@ -1,13 +1,14 @@
 DEFINED_PHASES=compile install prepare unpack
-DEPEND=>=sys-devel/rgbds-0.4.0
-DESCRIPTION=Gameboy and Gameboy Color emulator written in C
+DEPEND=virtual/opengl
+DESCRIPTION=Multiplatform Sega Dreamcast emulator
 EAPI=7
-HOMEPAGE=https://github.com/libretro/SameBoy
-INHERIT=libretro-core
+HOMEPAGE=https://github.com/libretro/flycast
+INHERIT=libretro-core toolchain-funcs
 IUSE=debug
 KEYWORDS=~amd64 ~x86
-LICENSE=MIT
+LICENSE=GPL-2
+RDEPEND=virtual/opengl
 SLOT=0
-SRC_URI=https://github.com/libretro/SameBoy/archive/f07b50968a473d13b201afc9d890b44ff33a7d19.tar.gz -> libretro-sameboy-0.13.1_pre20201124.tar.gz
+SRC_URI=https://github.com/libretro/flycast/archive/8e4fa54e26232d6d54d3b0adca163ae7e617b9bd.tar.gz -> libretro-flycast-0.1_pre20210717.tar.gz
 _eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	4134b5c0fb719b9161d10bdaba9e09e5	libretro-core	06f7176f36078d4798e632a08d7bf84c
-_md5_=886bf6cdbeb7c0f577926f810cbe1a41
+_md5_=54c86a12b3828ec4d9c9e19b1db31a4c

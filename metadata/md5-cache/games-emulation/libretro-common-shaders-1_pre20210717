@@ -1,0 +1,11 @@
+DEFINED_PHASES=unpack
+DESCRIPTION=Collection of commonly used Cg shaders
+EAPI=7
+HOMEPAGE=https://github.com/libretro/common-shaders
+INHERIT=vcs-snapshot
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/libretro/common-shaders/archive/55e401834b732e62c34411321c4ffd82524345d4.tar.gz -> libretro-common-shaders-1_pre20210717.tar.gz
+_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_md5_=1af32cf64ec0f555edbc7d7f180f7def
