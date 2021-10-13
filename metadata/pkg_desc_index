@@ -18,6 +18,7 @@ games-emulation/libretro-flycast 0.1_pre20200624 0.1_pre20201124 0.1_pre20210717
 games-emulation/libretro-genesis-plus-gx 1.7.5_pre20200314 1.7.5_pre20201124 1.7.5_pre20210717: An enhanced port of Genesis Plus - accurate & portable Sega 8/16 bit emulator
 games-emulation/libretro-glsl-shaders 1_pre20200624 1_pre20201124 1_pre20210717: Glsl shaders converted by hand from libretro's glsl-shaders repo
 games-emulation/libretro-info 1_pre20200624 1_pre20201124 1_pre20210717: Libretro info files required for libretro cores
+games-emulation/libretro-kronos 2.1.5_pre20211004: Sega Saturn Emulated Hardware
 games-emulation/libretro-mednafen-pcfx 0.9.36.5_pre20200624 0.9.36.5_pre20201124 0.9.36.5_pre20210717: Standalone port of Mednafen PCFX to libretro
 games-emulation/libretro-mednafen-psx 0.9.44.1_pre20200624 0.9.44.1_pre20201124 0.9.44.1_pre20210717: Standalone port/fork of Mednafen PSX to the Libretro API
 games-emulation/libretro-mednafen-saturn 1.22.2_pre20200624 1.22.2_pre20201124 1.22.2_pre20210717: Standalone port of Mednafen Saturn to the libretro API
@@ -30,7 +31,6 @@ games-emulation/libretro-sameboy 0.13.1_pre20200624 0.13.1_pre20201124: Gameboy 
 games-emulation/libretro-scummvm 2.1.1_p20200314: Interpreter for point-and-click adventure games as a libretro core.
 games-emulation/libretro-slang-shaders 1_pre20200624 1_pre20201124 1_pre20210717: Vulkan GLSL RetroArch shaders
 games-emulation/libretro-vbam 2.1.3_pre20200314 2.1.3_pre20201124 2.1.3_pre20210717: A fork of VBA-M with libretro integration
-games-emulation/libretro-yabause 0.9.15_pre20200601 0.9.15_pre20200624 0.9.15_pre20210717: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators)
 games-emulation/pcsxr 1.9.95_pre20190930: PCSX-Reloaded: a fork of PCSX, the discontinued Playstation emulator
 games-emulation/retroarch 1.9.6: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20200624 1_pre20201124 1_pre20210717: Assets needed for RetroArch. Also contains the official branding.
