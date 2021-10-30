@@ -10,6 +10,6 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">libretro/beetle-saturn-libretro</remote-id>
+		<remote-id type="github">libretro/dosbox-pure</remote-id>
 	</upstream>
 </pkgmetadata>
