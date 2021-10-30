@@ -1,12 +1,14 @@
 DEFINED_PHASES=compile install prepare unpack
-DESCRIPTION=An enhanced port of Genesis Plus - accurate & portable Sega 8/16 bit emulator
+DEPEND=virtual/opengl >=net-libs/libpcap-1.8.1-r2
+DESCRIPTION=Port of Nintendo DS emulator DeSmuME to libretro
 EAPI=7
-HOMEPAGE=https://github.com/libretro/Genesis-Plus-GX
+HOMEPAGE=https://github.com/libretro/desmume
 INHERIT=libretro-core
 IUSE=debug
 KEYWORDS=~amd64 ~x86
-LICENSE=XMAME
+LICENSE=GPL-2
+RDEPEND=virtual/opengl
 SLOT=0
-SRC_URI=https://github.com/libretro/Genesis-Plus-GX/archive/50551066f71f8a5ea782ea3747891fd6d24ebe67.tar.gz -> libretro-genesis-plus-gx-1.7.5_pre20200314.tar.gz
+SRC_URI=https://github.com/libretro/desmume/archive/7ea0fc96804fcd9c8d33e8f76cf64b1be50cc5ea.tar.gz -> libretro-desmume-0_pre20211017.tar.gz
 _eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	4134b5c0fb719b9161d10bdaba9e09e5	libretro-core	06f7176f36078d4798e632a08d7bf84c
-_md5_=cdf29c0d5e78f216457740007c403b77
+_md5_=5b4f466da8654d3574f797261439c676

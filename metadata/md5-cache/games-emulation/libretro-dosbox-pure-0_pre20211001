@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile install prepare unpack
-DEPEND=virtual/opengl >=net-libs/libpcap-1.8.1-r2
-DESCRIPTION=Port of Nintendo DS emulator DeSmuME to libretro
+DEPEND=virtual/opengl
+DESCRIPTION=DOS emulator, built for RetroArch/Libretro aiming for simplicity and ease of use
 EAPI=7
-HOMEPAGE=https://github.com/libretro/desmume
+HOMEPAGE=https://github.com/libretro/dosbox-pure
 INHERIT=libretro-core
 IUSE=debug
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=virtual/opengl
 SLOT=0
-SRC_URI=https://github.com/libretro/desmume/archive/d9923420d55e8bda61aaa15cb003b498375a2cb6.tar.gz -> libretro-desmume-0_pre20201124.tar.gz
+SRC_URI=https://github.com/libretro/dosbox-pure/archive/4d70760d65140c97634d2d6e8a9876e571790670.tar.gz -> libretro-dosbox-pure-0_pre20211001.tar.gz
 _eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	4134b5c0fb719b9161d10bdaba9e09e5	libretro-core	06f7176f36078d4798e632a08d7bf84c
-_md5_=6a471debf12b3e1935b4c182c778fe1d
+_md5_=d61f0cbfa2dd3e068e018451cb0bf864
