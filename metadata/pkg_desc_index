@@ -8,7 +8,7 @@ dev-util/dex2jar 0.0.9.15 2.0: Tools to work with android .dex and java .class f
 dev-util/lineageos-devel-meta 14.1-r1 15.1: Meta package providing LineageOS build environment
 dev-util/nihstro 0_p20200324: 3DS shader assembler and disassembler
 games-arcade/lbreakouthd 1.0.7: Breakout clone written with the SDL library
-games-emulation/libretro-bsnes 094_pre20190817 094_pre20190920 094_pre20210717: Libretro fork of bsnes
+games-emulation/libretro-bsnes 094_pre20210717 094_pre20211017: Libretro fork of bsnes
 games-emulation/libretro-citra 0_p20200322: Multiplatform Sega Dreamcast emulator
 games-emulation/libretro-common-overlays 1_pre20210717 1_pre20211017: Collection of overlay files for use with RetroArch
 games-emulation/libretro-common-shaders 1_pre20190930 1_pre20200202 1_pre20210717: Collection of commonly used Cg shaders
