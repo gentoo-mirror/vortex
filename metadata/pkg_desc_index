@@ -6,35 +6,35 @@ dev-libs/fuzzylite 6.0: A fuzzy logic control library in C++
 dev-util/aosp-devel-meta 7-r1 8 9-r1: Meta package providing AOSP build environment
 dev-util/dex2jar 0.0.9.15 2.0: Tools to work with android .dex and java .class files
 dev-util/lineageos-devel-meta 14.1-r1 15.1: Meta package providing LineageOS build environment
-dev-util/nihstro 0_p20200324: 3DS shader assembler and disassembler
+dev-util/nihstro 0_p20200324-r1: 3DS shader assembler and disassembler
 games-arcade/lbreakouthd 1.0.7: Breakout clone written with the SDL library
 games-emulation/libretro-bsnes 094_pre20210717 094_pre20211017: Libretro fork of bsnes
-games-emulation/libretro-citra 0_p20200322: Multiplatform Sega Dreamcast emulator
+games-emulation/libretro-citra 0_pre20211104: Multiplatform Sega Dreamcast emulator
 games-emulation/libretro-common-overlays 1_pre20210717 1_pre20211017: Collection of overlay files for use with RetroArch
-games-emulation/libretro-common-shaders 1_pre20190930 1_pre20200202 1_pre20210717: Collection of commonly used Cg shaders
-games-emulation/libretro-database 1_pre20210717 1_pre20211017: Cheatcode files, content data files and etc. stuff for RetroArch
+games-emulation/libretro-common-shaders 1_pre20200202 1_pre20210717: Collection of commonly used Cg shaders
+games-emulation/libretro-database 1_pre20211017 1_pre20211104: Cheatcode files, content data files and etc. stuff for RetroArch
 games-emulation/libretro-desmume 0_pre20210717 0_pre20211017: Port of Nintendo DS emulator DeSmuME to libretro
 games-emulation/libretro-dosbox-pure 0_pre20211001: DOS emulator, built for RetroArch/Libretro aiming for simplicity and ease of use
-games-emulation/libretro-flycast 0.1_pre20210717 0.1_pre20211017: Multiplatform Sega Dreamcast emulator
-games-emulation/libretro-genesis-plus-gx 1.7.5_pre20210717 1.7.5_pre20211017: An enhanced port of Genesis Plus - accurate & portable Sega 8/16 bit emulator
-games-emulation/libretro-glsl-shaders 1_pre20210717 1_pre20211017: Glsl shaders converted by hand from libretro's glsl-shaders repo
-games-emulation/libretro-info 1_pre20210717 1_pre20211017: Libretro info files required for libretro cores
-games-emulation/libretro-kronos 2.1.5_pre20211004 2.1.5_pre20211017: Sega Saturn Emulated Hardware
+games-emulation/libretro-flycast 0.1_pre20211017 0.1_pre20211104: Multiplatform Sega Dreamcast emulator
+games-emulation/libretro-genesis-plus-gx 1.7.5_pre20211017 1.7.5_pre20211104: An enhanced port of Genesis Plus - accurate & portable Sega 8/16 bit emulator
+games-emulation/libretro-glsl-shaders 1_pre20211017 1_pre20211104: Glsl shaders converted by hand from libretro's glsl-shaders repo
+games-emulation/libretro-info 1_pre20211017 1_pre20211104: Libretro info files required for libretro cores
+games-emulation/libretro-kronos 2.1.5_pre20211017 2.1.5_pre20211104: Sega Saturn Emulated Hardware
 games-emulation/libretro-mednafen-pcfx 0.9.36.5_pre20210717 0.9.36.5_pre20211017: Standalone port of Mednafen PCFX to libretro
-games-emulation/libretro-mednafen-psx 0.9.44.1_pre20210717 0.9.44.1_pre20211017: Standalone port/fork of Mednafen PSX to the Libretro API
-games-emulation/libretro-mgba 0.8_pre20210717 0.8_pre20211017: mGBA Game Boy Advance Emulator
-games-emulation/libretro-mupen64plus-next 1.0_pre20200509 1.0_pre20201124 1.0_pre20210717: Improved mupen64plus libretro core reimplementation
+games-emulation/libretro-mednafen-psx 0.9.44.1_pre20211017 0.9.44.1_pre20211104: Standalone port/fork of Mednafen PSX to the Libretro API
+games-emulation/libretro-mgba 0.8_pre20211017 0.8_pre20211104: mGBA Game Boy Advance Emulator
+games-emulation/libretro-mupen64plus-next 1.0_pre20201124 1.0_pre20210717: Improved mupen64plus libretro core reimplementation
 games-emulation/libretro-nestopia 1.5.0_pre20210717 1.5.0_pre20211017: Nestopia libretro port
 games-emulation/libretro-pcsx-rearmed 22_p20200202: ARM optimized PCSX fork
-games-emulation/libretro-picodrive 1.92_pre20200624 1.92_pre20201124: Fast MegaDrive/MegaCD/32X emulator
+games-emulation/libretro-picodrive 1.92_pre20201124 1.92_pre20211017: Fast MegaDrive/MegaCD/32X emulator
 games-emulation/libretro-sameboy 0.13.1_pre20200624 0.13.1_pre20201124: Gameboy and Gameboy Color emulator written in C
 games-emulation/libretro-scummvm 2.1.1_p20200314: Interpreter for point-and-click adventure games as a libretro core.
-games-emulation/libretro-slang-shaders 1_pre20210717 1_pre20211017: Vulkan GLSL RetroArch shaders
-games-emulation/libretro-vbam 2.1.3_pre20200314 2.1.3_pre20201124 2.1.3_pre20210717: A fork of VBA-M with libretro integration
+games-emulation/libretro-slang-shaders 1_pre20211017 1_pre20211104: Vulkan GLSL RetroArch shaders
+games-emulation/libretro-vbam 2.1.3_pre20201124 2.1.3_pre20210717: A fork of VBA-M with libretro integration
 games-emulation/pcsxr 1.9.95_pre20190930: PCSX-Reloaded: a fork of PCSX, the discontinued Playstation emulator
-games-emulation/retroarch 1.9.6 1.9.11: Frontend for emulators, game engines and media players
-games-emulation/retroarch-assets 1_pre20210717 1_pre20211017: Assets needed for RetroArch. Also contains the official branding.
-games-emulation/retroarch-joypad-autoconfig 1_pre20210717 1_pre20211017: RetroArch joypad autoconfig files
+games-emulation/retroarch 1.9.11 1.9.12: Frontend for emulators, game engines and media players
+games-emulation/retroarch-assets 1_pre20211017 1_pre20211104: Assets needed for RetroArch. Also contains the official branding.
+games-emulation/retroarch-joypad-autoconfig 1_pre20211017 1_pre20211104: RetroArch joypad autoconfig files
 games-strategy/s25rttr 0.9.0_pre20210101: Open Source remake of The Settlers II game (needs original game files)
 games-strategy/vcmi 0.99_p20210101: VCMI is work-in-progress attempt to recreate engine for Heroes III.
 net-misc/gnome-remote-desktop 0.1.9: Remote desktop daemon for GNOME using pipewire
