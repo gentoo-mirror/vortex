@@ -5,8 +5,6 @@
 games-arcade/lbreakouthd:themes - Install additional themes
 games-emulation/libretro-mednafen-psx:opengl - Build with OpenGL support
 games-emulation/libretro-mednafen-psx:vulkan - Build with Vulkan support
-games-emulation/pcsxr:cdio - Use libcdio for CD support
-games-emulation/pcsxr:sdl - Use SDL sound backend (other parts of SDL are used unconditionally)
 games-emulation/retroarch:X - Enable Xorg support
 games-emulation/retroarch:alsa - Build ALSA audio driver
 games-emulation/retroarch:cg - Enable Cg shader support

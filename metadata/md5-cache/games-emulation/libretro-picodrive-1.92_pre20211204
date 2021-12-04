@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare unpack
+DESCRIPTION=Fast MegaDrive/MegaCD/32X emulator
+EAPI=7
+HOMEPAGE=https://github.com/libretro/picodrive
+INHERIT=libretro-core
+IUSE=debug
+KEYWORDS=~amd64 ~x86
+LICENSE=XMAME
+SLOT=0
+SRC_URI=https://github.com/libretro/picodrive/archive/d44605c269e645a6734089ac1f95116a5ce57e0b.tar.gz -> libretro-picodrive-1.92_pre20211204.tar.gz https://github.com/mackron/dr_libs/archive/343aa923439e59e7a9f7726f70edc77a4500bdec.tar.gz -> libretro-picodrive-1.92_pre20211204-dr_libs.tar.gz https://github.com/digital-sound-antiques/emu2413/archive/9f1dcf848d0e33e775e49352f7bc83a9c0e87a81.tar.gz -> libretro-picodrive-1.92_pre20211204-emu2413.tar.gz https://github.com/rtissera/libchdr/archive/00319cf31f034e4d468a49a60265c7c5b8305b70.tar.gz -> libretro-picodrive-1.92_pre20211204-libchdr.tar.gz
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	4134b5c0fb719b9161d10bdaba9e09e5	libretro-core	06f7176f36078d4798e632a08d7bf84c
+_md5_=5806554f895c9acfc8cbb6ffe9865571
