@@ -11,5 +11,5 @@ RDEPEND=bash-completion? ( >=app-shells/bash-completion-2.3-r1 )
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/openshift/origin/archive/v3.11.0.tar.gz -> openshift-cli-3.11.0.tar.gz
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	bash-completion-r1	d3a60385655d9b402be765a6de333245	golang-base	b8fb27dacacea08140c53857f439fc7d	golang-build	f037bca330974d0c1a23c7390ddcba09	golang-vcs-snapshot	ee98df2c8a27c4347826db72f6dc2d50
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4b66d835ec72e021e359bb81eacfe988	bash-completion-r1	d3a60385655d9b402be765a6de333245	golang-base	b8fb27dacacea08140c53857f439fc7d	golang-build	f037bca330974d0c1a23c7390ddcba09	golang-vcs-snapshot	ee98df2c8a27c4347826db72f6dc2d50
 _md5_=618308764fa08b6f57a6361a30606e8f
