@@ -46,6 +46,7 @@ games-emulation/retroarch-assets:materialui - Install assets for MaterialUI menu
 games-emulation/retroarch-assets:ozone - Install assets for Ozone menu
 games-emulation/retroarch-assets:rgui - Install assets for RGUI menu
 games-emulation/retroarch-assets:xmb - Install assets for XMB menu
+games-strategy/fheroes2:tools - Enable additional tools
 games-strategy/vcmi:editor - Enable compilation of map editor
 games-strategy/vcmi:erm - Enable compilation of ERM scripting module
 games-strategy/vcmi:launcher - Enable compilation of launcher

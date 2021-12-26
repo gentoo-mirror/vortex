@@ -34,6 +34,7 @@ games-emulation/libretro-vbam 2.1.3_pre20201124 2.1.3_pre20210717: A fork of VBA
 games-emulation/retroarch 1.9.12 1.9.13.2: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20211017 1_pre20211104: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20211104 1_pre20211204: RetroArch joypad autoconfig files
+games-strategy/fheroes2 0.9.11: Recreation of HoMM2 game engine
 games-strategy/s25rttr 0.9.0_pre20210101: Open Source remake of The Settlers II game (needs original game files)
 games-strategy/vcmi 0.99_p20210101: VCMI is work-in-progress attempt to recreate engine for Heroes III.
 net-misc/gnome-remote-desktop 0.1.9: Remote desktop daemon for GNOME using pipewire
