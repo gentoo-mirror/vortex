@@ -50,4 +50,7 @@ games-strategy/fheroes2:tools - Enable additional tools
 games-strategy/vcmi:editor - Enable compilation of map editor
 games-strategy/vcmi:erm - Enable compilation of ERM scripting module
 games-strategy/vcmi:launcher - Enable compilation of launcher
+games-util/sunshine:cuda - Enable cuda specific code
+games-util/sunshine:kms - Enable KMS grab if available
+games-util/sunshine:x11 - Enable X11 grab if available
 sys-kernel/ddcci-driver-linux:nvidia - NVidia proprietary driver support

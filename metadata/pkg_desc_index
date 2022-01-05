@@ -37,6 +37,7 @@ games-emulation/retroarch-joypad-autoconfig 1_pre20211204 1_pre20220101: RetroAr
 games-strategy/fheroes2 0.9.11: Recreation of HoMM2 game engine
 games-strategy/s25rttr 0.9.1: Open Source remake of The Settlers II game (needs original game files)
 games-strategy/vcmi 0.99_p20210101: VCMI is work-in-progress attempt to recreate engine for Heroes III.
+games-util/sunshine 0.11.1: Gamestream host for Moonlight
 net-misc/gnome-remote-desktop 0.1.9: Remote desktop daemon for GNOME using pipewire
 net-news/liferea 1.13.5: News Aggregator for RDF/RSS/CDF/Atom/Echo feeds
 net-wireless/bluetooth-buggy-reconnect 1-r1: CLI tool to automatically reconnect buggy trusted bluetooth devices.
