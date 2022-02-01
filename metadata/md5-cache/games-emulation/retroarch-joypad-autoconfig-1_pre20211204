@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=CC-BY-4.0
 SLOT=0
 SRC_URI=https://github.com/libretro/retroarch-joypad-autoconfig/archive/127e8c2fcc0c707351a4e3e23b1e19cdbcefb3af.tar.gz -> retroarch-joypad-autoconfig-1_pre20211204.tar.gz
-_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=vcs-snapshot	19dc666868420457132a7514d4621476
 _md5_=1469b371fc9fdb0c21f8876bcea8bc5f
