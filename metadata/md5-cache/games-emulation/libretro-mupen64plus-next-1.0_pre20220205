@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile install prepare unpack
-DEPEND=virtual/opengl
-DESCRIPTION=Multiplatform Sega Dreamcast emulator
+DEPEND=media-libs/libpng:= virtual/opengl dev-lang/nasm
+DESCRIPTION=Improved mupen64plus libretro core reimplementation
 EAPI=7
-HOMEPAGE=https://github.com/libretro/flycast
+HOMEPAGE=https://github.com/libretro/mupen64plus-libretro-nx
 INHERIT=libretro-core toolchain-funcs
 IUSE=debug
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=virtual/opengl
+RDEPEND=media-libs/libpng:= virtual/opengl
 SLOT=0
-SRC_URI=https://github.com/libretro/flycast/archive/041297cc6c266b1185a4414271a10732c946239c.tar.gz -> libretro-flycast-0.1_pre20211204.tar.gz
+SRC_URI=https://github.com/libretro/mupen64plus-libretro-nx/archive/b76ea63eeeba4c3b0364504a7cea01f1b826c3ae.tar.gz -> libretro-mupen64plus-next-1.0_pre20220205.tar.gz
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	libretro-core	06f7176f36078d4798e632a08d7bf84c
-_md5_=6f334d585bd82ce73217be100edeaff8
+_md5_=4b335700e26f103687d0c69a2a83cb5c
