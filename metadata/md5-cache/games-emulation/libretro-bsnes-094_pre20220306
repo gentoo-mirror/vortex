@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=Libretro fork of bsnes
+EAPI=7
+HOMEPAGE=https://github.com/libretro/bsnes-libretro
+INHERIT=libretro-core
+IUSE=debug
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/libretro/bsnes-libretro/archive/26c583e1c5d09253b6c61e2b9d418e8758eef632.tar.gz -> libretro-bsnes-094_pre20220306.tar.gz
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	libretro-core	06f7176f36078d4798e632a08d7bf84c
+_md5_=1c547b1c39c1708638f17360fa163a51
