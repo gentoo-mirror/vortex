@@ -20,7 +20,6 @@ games-emulation/retroarch:kms - Enable KMS context support
 games-emulation/retroarch:libcaca - Enable Libcaca support
 games-emulation/retroarch:libusb - Enable Libusb HID support
 games-emulation/retroarch:materialui - Enable MaterialUI menu
-games-emulation/retroarch:miniupnpc - Enable Mini UPnP client library (for NAT traversal)
 games-emulation/retroarch:openal - Build OpenAL audio driver
 games-emulation/retroarch:opengl - Build OpenGL 2.0 video driver
 games-emulation/retroarch:ozone - Enable Ozone menu
