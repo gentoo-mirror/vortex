@@ -7,5 +7,5 @@ KEYWORDS=amd64 x86
 LICENSE=GPL-3
 RDEPEND=app-admin/eselect app-arch/gzip sys-apps/coreutils sys-apps/gentoo-functions sys-apps/grep sys-apps/portage sys-apps/util-linux virtual/awk
 SLOT=0
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	23cb2d46c80c12aa8b25973b4cdcb257	optfeature	1a2157392a869265b2afcb63a26c12ac
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	6f9a4727973fc1e368f52777d871e769	optfeature	1a2157392a869265b2afcb63a26c12ac
 _md5_=7f4de4e280ac49b4d20f7886517c3d0a

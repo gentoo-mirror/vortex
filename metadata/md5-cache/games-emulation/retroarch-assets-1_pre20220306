@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=CC-BY-4.0
 SLOT=0
 SRC_URI=https://github.com/libretro/retroarch-assets/archive/db5f4f4babb7f6f9c7edd27690c3ffa911cc9b24.tar.gz -> retroarch-assets-1_pre20220306.tar.gz
-_eclasses_=vcs-snapshot	19dc666868420457132a7514d4621476
+_eclasses_=vcs-snapshot	eab6d8533446763c2e9777d8bbd1594e
 _md5_=fdeae5399e20dfdaf45130e45d12ef4c
