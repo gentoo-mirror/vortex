@@ -1,6 +1,7 @@
 app-emulation/openshift-cli 3.11.0-r1 4.1.0: OpenShift Command-Line Interface
 app-portage/vortex-aliases 1: Simple aliases for use with portage
 dev-cpp/curlcpp 1.4: An object-oriented C++ wrapper for cURL tool
+dev-libs/dynarmic 1_p20180826: An ARM dynamic recompiler
 dev-util/aosp-devel-meta 7-r1 8 9-r1: Meta package providing AOSP build environment
 dev-util/dex2jar 0.0.9.15 2.0: Tools to work with android .dex and java .class files
 dev-util/lineageos-devel-meta 14.1-r1 15.1: Meta package providing LineageOS build environment
