@@ -45,4 +45,4 @@ sys-devel/rgbds 0.5.1: Rednex Game Boy Development System
 sys-fs/marc-fs 0.7.2_pre20201122: FUSE filesystem attempt for Mail.Ru Cloud
 sys-kernel/ddcci-driver-linux 0.3.2 0.3.4_pre20190922: Detects DDC/CI devices on DDC I2C busses and creates corresponding devices.
 sys-kernel/vortex-build 7: Simple Linux kernel build scripts
-sys-kernel/xpadneo 0.6.0_pre20200101: Advanced Linux Driver for Xbox One Wireless Controller (shipped with Xbox One S)
+sys-kernel/xpadneo 0.6.0_pre20200101 0.9.3: Advanced Linux Driver for Xbox One Wireless Controller (shipped with Xbox One S)
