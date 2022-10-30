@@ -52,7 +52,7 @@ RDEPEND="
 	cg? ( media-gfx/nvidia-cg-toolkit )
 	gles? ( media-libs/mesa:0=[gles2] )
 	ffmpeg? ( media-video/ffmpeg )
-	flac? ( media-libs/flac )
+	flac? ( media-libs/flac:= )
 	freetype? ( media-libs/freetype )
 	kms? (
 		media-libs/mesa:0=[gbm(+)]
@@ -161,6 +161,7 @@ src_configure() {
 		$(use_enable gles3 opengles3) \
 		$(use_enable libcaca caca) \
 		$(use_enable libusb) \
+		$(use_enable libusb hid) \
 		$(use_enable materialui) \
 		$(use_enable openal al) \
 		$(use_enable opengl) \
