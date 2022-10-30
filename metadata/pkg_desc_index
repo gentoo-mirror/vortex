@@ -32,7 +32,7 @@ games-emulation/libretro-sameboy 0.13.1_pre20200624 0.13.1_pre20201124: Gameboy 
 games-emulation/libretro-scummvm 2.1.1_p20200314: Interpreter for point-and-click adventure games as a libretro core.
 games-emulation/libretro-slang-shaders 1_pre20220306 1_pre20220502 1_pre20221001: Vulkan GLSL RetroArch shaders
 games-emulation/libretro-vbam 2.1.3_pre20201124 2.1.3_pre20210717 2.1.3_pre20221001: A fork of VBA-M with libretro integration
-games-emulation/retroarch 1.10.3 1.11.0: Frontend for emulators, game engines and media players
+games-emulation/retroarch 1.11.0 1.12.0: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20220306 1_pre20220502 1_pre20221001: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20220306 1_pre20220502 1_pre20221001: RetroArch joypad autoconfig files
 games-strategy/fheroes2 0.9.11: Recreation of HoMM2 game engine
